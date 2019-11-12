@@ -7,6 +7,8 @@
 * 
 *
 
+Link repository: [2019_assignment2_gruppo25] (https://gitlab.com/i.bettini/2019_assignment2_gruppo25)
+
 > **APPLICATION OVERVIEW**
 
 L'obiettivo di questa applicazione è di aiutare gli utenti/studenti che studiano presso
