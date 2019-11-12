@@ -50,3 +50,12 @@ che non accade in altri applicativi esistenti) e quindi cercando di agevolare l'
 universitaria dei nostri studenti sotto ogni aspetto. 
 Questa applicazione può essere un ulteriore possibilità di contatto e condivisione tra università 
 e studenti.
+
+> **ELICITATION STRATEGY OVERVIEW**
+
+Dopo una prima analisi del background, si procede a parlare con il CEO del progetto e a decidere la 
+strategia migliore per ottenere informazioni dagli stakeholders. 
+Una volta ottenute tutte le informazioni necessarie, se questi requisiti non vanno in conflitto con 
+quanto richiesto dal CEO si può procedere con la creazione dell'applicazione.
+Se l'applicazione creata è fattibile allora si può concludere lo studio.
+Segue uno schema riassuntivo della strategia:
