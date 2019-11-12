@@ -9,21 +9,26 @@
 
 > **APPLICATION OVERVIEW**
 
-The aim of this application is to help users who studying at univerisity of Milano Bicocca 
-with a system that manages the repetitions between students who attend the same faculty. 
-So the idea behind this application is to create a network of trust between users/students,
-giving the opportunity for some student to share their knowledge and to find an economic 
-indipendence. It can be also the opportunity for student who wants to start a course in our
-university to prepare the entry test.
+L'obiettivo di questa applicazione è di aiutare gli utenti/studenti che studiano presso
+l'università degli studi di Milano Bicocca con un sistema che gestisce le ripetizioni per
+studenti che frequentano la stessa facoltà.
+L'idea dietro questo applicativo è quindi quella di creare una "rete" di fiducia tra gli 
+utenti/studenti, dando l'opportunità ad alcuni studenti di condividere la propria conoscenza
+e di iniziare a trovare un'indipendenza economica.
+Questa può essere anche l'opportunità per studenti che vogliono iscriversi alla nostra università
+per avere aiuto e prepare il test d'ingresso.
 
-There are two types of users:
-1) Users searching for repetitions;
-2) Users who delivers repetitions.
+Ci sono due tipi di utenti:
+*  Utenti che hanno bisogno di ripetizioni;
+*  Utenti che erogano ripetizioni.
 
-Each user with the process of subscription at the application define his role and the
-subject who wants to learn or to explain. After this, users who are matched could organize 
-a meeting. In our idea, the university could create spaces where these meetings take place.
-Next, the user who received the repetitions can return feedback through the application and
-organize a new meeting. 
-Furthermore, the user who has provided the repetitions can also send a positive or negative 
-comment on the student for the next "teacher".
+Entrambi gli utenti iscrivendosi all'applicazione definisco il loro ruolo, indicando la facoltà
+presso la quale studiano e le materie cui hanno bisogno ripetizione o che sono disposti a spiegare.
+Dopo l'iscrizione, l'utente che cerca una ripetizione contatta "l'insegnante" e si può così 
+organizzare l'incontro.
+Nella nostra idea, l'università potrebbe creare spazi pensati a posta per questo scopo, creando 
+anche una sezione nel proprio sito o su e-learning di questo applicativo.
+Alla fine della ripetizione, lo studente può rilasciare un feedback (positivo o negativo) su chi 
+ha erogato la ripetizione e volendo può già organizzare un nuovo incontro.
+Allo stesso tempo, l'utente che ha svolto la ripetizione può lasciare un commento sulla serietà 
+dello studente, in modo da lasciare informazioni a chi in futuro erogherà ripetizioni a quello studente.
