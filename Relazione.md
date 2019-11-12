@@ -4,7 +4,7 @@
 > **COMPOSIZIONE DEL GRUPPO:** 
 
 * Bettini Ivo Junior (matr.806878)
-* 
+* Beltramelli Fabio (matr. 816912)
 *
 
 Link repository: [2019_assignment2_gruppo25](https://gitlab.com/i.bettini/2019_assignment2_gruppo25)
@@ -36,7 +36,7 @@ Allo stesso tempo, l'utente che ha svolto la ripetizione può lasciare un commen
 dello studente, in modo da lasciare informazioni a chi in futuro erogherà ripetizioni a quello 
 studente.
 
-> **BACKGORUND STUDY**
+> **BACKGROUND STUDY**
 
 Il mondo delle ripetizioni è un mondo vasto, le bacheche dell'università e i siti internet sono 
 pieni di annunci di persone che cercano o che vogliono erogare ripetizioni. 
@@ -44,6 +44,12 @@ Esistono già siti come TrovaRipetizoni, piattaforma creata da degli studenti ch
 rete molto ampia (tutta Italia) e quindi non ancora può fornire una copertura adeguata o applicazioni 
 come  Bravoapp, che fornisce la possibilità di sottoscrivere abbonamenti mensili per gli insegnanti 
 e di effettuare ricerche gratuite per chi cerca ripetizioni.
+Un altro caso di studio è SuperProf.it, anche questo sito permette di cercare degli studenti 
+che facciano ripetizioni in una zona selezionata. Un punto di forza di questa piattaforma è sicuramente
+la possibilità di dare lezioni online, attraverso l'utilizzo di Skype, Hangouts o FaceTime. In
+questo modo è possibile seguire/fornire una ripetizione direttamente da casa propria. 
+Un'app molto simile, che permette di tenere lezioni anche a grandi distanze è iTeach, essa utilizza
+internet per gestire la comunicazione tra le parti.
 Il nostro obiettivo è differenziarci un minimo da questi applicativi, localizzandoci in un luogo 
 preciso, dando la possibilità anche a chi eroga una ripetizione di poter lasciare un feedback (cosa
 che non accade in altri applicativi esistenti) e quindi cercando di agevolare l'esperienza 
@@ -59,3 +65,23 @@ Una volta ottenute tutte le informazioni necessarie, se questi requisiti non van
 quanto richiesto dal CEO si può procedere con la creazione dell'applicazione.
 Se l'applicazione creata è fattibile allora si può concludere lo studio.
 Segue uno schema riassuntivo della strategia:
+
+
+> **STAKEHOLDER**
+
+L'applicazione si rivolge principalmente agli studenti dell'università Milano-Bicocca,
+con la possibilità di estendersi in molti altri atenei italiani.
+
+Gli stakeholder interessati sono:
+
+-CEO: si tratta del committente dell'applicazione, in quanto finanzia tutta l'attività di sviluppo, 
+di integrazione e si relaziona direttamente con l'ateneo.
+
+-UTENTE: si tratta dell'attore principale dell'applicazione, può essere uno studente che ha bisogno 
+di aiuto oppure uno studente che eroga ripetizioni.
+
+-UNIVERSITA': essa potrebbe incentivare l'utilizzo dell'applicazione fornendo delle aule in cui
+ritrovarsi e magari creando delle classi di ripetizioni con più studenti contemporaneamente.
+
+-TEAM DI SVILUPPO: composto da programmatori ed ha l'obiettivo di realizzare l'applicazione mobile,
+disponibile sia su Android che su IOS.
