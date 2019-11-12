@@ -33,4 +33,20 @@ anche una sezione nel proprio sito o su e-learning di questo applicativo.
 Alla fine della ripetizione, lo studente può rilasciare un feedback (positivo o negativo) su chi 
 ha erogato la ripetizione e volendo può già organizzare un nuovo incontro.
 Allo stesso tempo, l'utente che ha svolto la ripetizione può lasciare un commento sulla serietà 
-dello studente, in modo da lasciare informazioni a chi in futuro erogherà ripetizioni a quello studente.
+dello studente, in modo da lasciare informazioni a chi in futuro erogherà ripetizioni a quello 
+studente.
+
+> **BACKGORUND STUDY**
+
+Il mondo delle ripetizioni è un mondo vasto, le bacheche dell'università e i siti internet sono 
+pieni di annunci di persone che cercano o che vogliono erogare ripetizioni. 
+Esistono già siti come TrovaRipetizoni, piattaforma creata da degli studenti che cerca di creare una 
+rete molto ampia (tutta Italia) e quindi non ancora può fornire una copertura adeguata o applicazioni 
+come  Bravoapp, che fornisce la possibilità di sottoscrivere abbonamenti mensili per gli insegnanti 
+e di effettuare ricerche gratuite per chi cerca ripetizioni.
+Il nostro obiettivo è differenziarci un minimo da questi applicativi, localizzandoci in un luogo 
+preciso, dando la possibilità anche a chi eroga una ripetizione di poter lasciare un feedback (cosa
+che non accade in altri applicativi esistenti) e quindi cercando di agevolare l'esperienza 
+universitaria dei nostri studenti sotto ogni aspetto. 
+Questa applicazione può essere un ulteriore possibilità di contatto e condivisione tra università 
+e studenti.
