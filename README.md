@@ -11,7 +11,7 @@
 13/11/2019
 
 ## **GitLab Repository**
-https://gitlab.com/i.bettini/2019_assignment2_//TODO: https://forum.gitlab.com/t/rename-project-url/23599
+https://gitlab.com/i.bettini/2019_assignment2_unimib_tutoring_assistant
 
 ## **APPLICATION OVERVIEW**
 
@@ -35,6 +35,7 @@ In the ideal scenario, the application will be presented to the higher-ups of th
 ## **BACKGROUND STUDY**
 
 //TODO: Aggiungere Refs e qualche info in più se possibile
+
 Il mondo delle ripetizioni è un mondo vasto, le bacheche dell'università e i siti internet sono pieni di annunci di persone che cercano o che vogliono erogare ripetizioni. 
 Esistono già siti come TrovaRipetizoni, piattaforma creata da degli studenti che cerca di creare una rete molto ampia (tutta Italia) e quindi non ancora può fornire una copertura adeguata o applicazioni come Bravoapp, che fornisce la possibilità di sottoscrivere abbonamenti mensili per gli insegnanti e di effettuare ricerche gratuite per chi cerca ripetizioni.
 Un altro caso di studio è SuperProf.it, anche questo sito permette di cercare degli studenti che facciano ripetizioni in una zona selezionata. Un punto di forza di questa piattaforma è sicuramente la possibilità di dare lezioni online, attraverso l'utilizzo di Skype, Hangouts o FaceTime. In questo modo è possibile seguire/fornire una ripetizione direttamente da casa propria. 
@@ -45,6 +46,7 @@ Questa applicazione può essere un ulteriore possibilità di contatto e condivis
 ## **ELICITATION STRATEGY OVERVIEW**
 
 //TODO: Ampliare
+
 Dopo una prima analisi del background, si procede a parlare con il CEO del progetto e a decidere la strategia migliore per ottenere informazioni dagli stakeholders. 
 Una volta ottenute tutte le informazioni necessarie, se questi requisiti non vanno in conflitto con quanto richiesto dal CEO si può procedere con la creazione dell'applicazione.
 Se l'applicazione creata è fattibile allora si può concludere lo studio.
@@ -55,6 +57,7 @@ Segue uno schema riassuntivo della strategia:
 ## **STAKEHOLDERS**
 
 //TODO: DomUnderstandingAndReqElicitation.pdf->P4 ===> Introduzione di perché sono stati scelti i stakeholder (=ispirandosi alla letteratura è stato scelto X perché Y), Rivedere gli stakeholder
+
 L'applicazione si rivolge principalmente agli studenti dell'università Milano-Bicocca, con la possibilità di estendersi in molti altri atenei italiani.
 
 Gli stakeholder interessati sono:
