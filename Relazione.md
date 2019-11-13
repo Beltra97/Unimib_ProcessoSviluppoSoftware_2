@@ -67,7 +67,7 @@ Se l'applicazione creata è fattibile allora si può concludere lo studio.
 Segue uno schema riassuntivo della strategia:
 
 
-> **STAKEHOLDER**
+> **STAKEHOLDERS**
 
 L'applicazione si rivolge principalmente agli studenti dell'università Milano-Bicocca,
 con la possibilità di estendersi in molti altri atenei italiani.
