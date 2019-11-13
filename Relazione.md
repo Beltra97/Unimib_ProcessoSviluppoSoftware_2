@@ -74,14 +74,14 @@ con la possibilità di estendersi in molti altri atenei italiani.
 
 Gli stakeholder interessati sono:
 
--CEO: si tratta del committente dell'applicazione, in quanto finanzia tutta l'attività di sviluppo, 
+* CEO: si tratta del committente dell'applicazione, in quanto finanzia tutta l'attività di sviluppo, 
 di integrazione e si relaziona direttamente con l'ateneo.
 
--UTENTE: si tratta dell'attore principale dell'applicazione, può essere uno studente che ha bisogno 
+* UTENTE: si tratta dell'attore principale dell'applicazione, può essere uno studente che ha bisogno 
 di aiuto oppure uno studente che eroga ripetizioni.
 
--UNIVERSITA': essa potrebbe incentivare l'utilizzo dell'applicazione fornendo delle aule in cui
+* UNIVERSITÀ: essa potrebbe incentivare l'utilizzo dell'applicazione fornendo delle aule in cui
 ritrovarsi e magari creando delle classi di ripetizioni con più studenti contemporaneamente.
 
--TEAM DI SVILUPPO: composto da programmatori ed ha l'obiettivo di realizzare l'applicazione mobile,
+* TEAM DI SVILUPPO: composto da programmatori ed ha l'obiettivo di realizzare l'applicazione mobile,
 disponibile sia su Android che su IOS.
