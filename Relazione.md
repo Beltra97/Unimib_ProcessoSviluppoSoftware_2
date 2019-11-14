@@ -5,7 +5,7 @@
 
 * Bettini Ivo Junior (matr.806878)
 * Beltramelli Fabio (matr. 816912)
-* Tramontana Giuseppe (765917)
+* Tramontana Giuseppe (matr. 765917)
 
 Link repository: [2019_assignment2_unimib_tutoring_assistant](https://gitlab.com/i.bettini/2019_assignment2_unimib_tutoring_assistant)
 
