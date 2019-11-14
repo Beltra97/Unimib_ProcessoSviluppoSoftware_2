@@ -7,7 +7,7 @@
 * Beltramelli Fabio (matr. 816912)
 *
 
-Link repository: [2019_assignment2_gruppo25](https://gitlab.com/i.bettini/2019_assignment2_gruppo25)
+Link repository: [2019_assignment2_unimib_tutoring_assistant](https://gitlab.com/i.bettini/2019_assignment2_unimib_tutoring_assistant)
 
 > **APPLICATION OVERVIEW**
 
