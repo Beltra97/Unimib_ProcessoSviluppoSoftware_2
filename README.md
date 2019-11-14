@@ -3,7 +3,7 @@
 
 ## **Group 25 - Composition:** 
 
-* Bettini Ivo Junior (806878) @ //TODO: ij.bettini@campus.unimib.it
+* Bettini Ivo Junior (806878) @ //TODO: i.bettini@campus.unimib.it
 * Beltramelli Fabio (816912) @ //TODO: f.beltramelli@campus.unimib.it
 * Tramontana Giuseppe (765917) @ g.tramontana@campus.unimib.it
 
