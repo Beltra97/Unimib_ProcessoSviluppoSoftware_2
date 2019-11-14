@@ -3,7 +3,7 @@
 
 ## **Group 25 - Composition:** 
 
-* Bettini Ivo Junior (806878) @ //TODO: i.bettini@campus.unimib.it
+* Bettini Ivo Junior (806878) i.bettini@campus.unimib.it
 * Beltramelli Fabio (816912) @ //TODO: f.beltramelli@campus.unimib.it
 * Tramontana Giuseppe (765917) @ g.tramontana@campus.unimib.it
 
@@ -11,7 +11,7 @@
 13/11/2019
 
 ## **GitLab Repository**
-https://gitlab.com/i.bettini/2019_assignment2_unimib_tutoring_assistant
+Repository: [assignment2_unimib_tutoring_assistant](https://gitlab.com/i.bettini/2019_assignment2_unimib_tutoring_assistant)
 
 ## **APPLICATION OVERVIEW**
 
