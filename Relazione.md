@@ -88,13 +88,13 @@ Segue uno schema riassuntivo della strategia:
 
 L'applicazione si rivolge principalmente agli studenti dell'università Milano-Bicocca,
 con la possibilità di estendersi in molti altri atenei italiani.
-Sono stati identificati diversi stakeholders;
+Sono stati identificati diversi stakeholders:
 
 * CEO: si tratta del committente dell'applicazione, nel nostro caso è il professore che ci da 
 il progetto da fare (giusto chiamarlo ceo??)
 
-* UTENTI FINALI: classe che comprende due tipi di utenti,uno è uno studente che ha bisogno 
-di aiuto l'altro è uno studente che eroga ripetizioni. (GIUSTO)
+* UTENTI FINALI: classe che comprende due tipi di utenti,uno è lo studente che ha bisogno di aiuto
+l'altro è lo studente che eroga ripetizioni. (GIUSTO)
 
 * RETTORE: Figura che collega il nostro progetto all'università, (vedi intervista)
 
