@@ -25,7 +25,7 @@ Group 25 was formed by three students of the _University of Milano-Bicocca_ that
 
 The _public competition_ did not come with an in-depth list of requirements for the software to be met; instead, it described the application at high-level by providing a ideal workflow that will be presented in this overview.
 
-Before presenting the overview, it is fundamental to introduce the different types of user that will be interacting with the system.
+Before presenting the overview, though, it is fundamental to introduce the different types of user that will be interacting with the system.
 **UNIMIB Tutoring Assistant** will be an application for handling private tutoring, so two key types of user need to be defined:
 1. Users who search for private lessons
 2. Users who offer private lessons
@@ -35,11 +35,11 @@ Since the application aims to build a social network, another type of user will 
 
 Regarding the two key users for the Mobile Application, it will be required for them to **register** to the service and fill in their profile with some mandatory information: _personal data_, _personal snapshot_ and _field of study/interest_.
 
-After **logging in**, they can choose to _Search for Private Lessons_ (filtered, at least initially, by chosen _field of study/interest_) or _Offer Private Lessons_ by compiling a form with some mandatory and optional informations.
+After **logging in**, they can choose to _Search for Private Lessons_ (filtered, at least initially, by chosen _field of study/interest_) or to _Offer Private Lessons_ by compiling a form with some mandatory and optional information.
 
 An user in need of a private lesson can start to schedule a meeting with an offerer. During the scheduling the application will allow the users to send _instant messages_ to communicate and to _check reviews_ about the other user, other than, of course, negotiate the _date of meeting_ and other _meeting details_.
 
-After a certain time after every meeting, both actors will be able to send a review about the meeting in order to give future users a better way to find an appropriate match for their needs.
+After a certain time after a scheduled meeting, both actors will be able to send a review about the meeting in order to give future users a better way to find an appropriate match for their needs.
 
 In the ideal scenario, the application will be presented to the higher-ups of the University in order to be officially promoted.
 
@@ -49,7 +49,7 @@ The first step of _Software Development_ is **Requirements Engineering**. **Requ
 
 In **Requirements Engineering**, **Requirements Elicitation** is the practice of researching and discovering the requirements of a system.
 
-A standard **Elicitation Strategy** usually starts with a complete analysis of the _Software AS-IS_, in order to find a set of weaknesses that need to be addressed by the software solution that is going to be developed; in this case, though, since **UNIMIB Tutoring Assistant** is a to-be-developed _Mobile Application_, a good approach to start with **Requirements Elicitation** is to gain knowledge about the software domain through a **Background Study**.
+A standard **Elicitation Strategy** usually starts with a complete analysis of the _Software AS-IS_, in order to find a set of weaknesses that need to be addressed by the software solution that is going to be developed; in this case, though, since **UNIMIB Tutoring Assistant** is a __to-be-developed__ _Mobile Application_, a good approach to start with **Requirements Elicitation** is to gain knowledge about the software domain through a **Background Study**.
 
 ## **BACKGROUND STUDY**
 
