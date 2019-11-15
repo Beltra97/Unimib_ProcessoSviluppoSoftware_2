@@ -60,6 +60,20 @@ e studenti.
 
 > **ELICITATION STRATEGY OVERVIEW**
 
+(Possibile cambio dell'overview)
+Dopo un'analisi preliminare avvenuta nella fase di background study, si procede a decidere con il 
+professore gli step da seguire per portare a termine il progetto.
+L'interazione con gli stakeholders è avvenuta attraverso techiniche diverse di elicitazione, usate
+per poter ottenere il maggior numero di opinioni, informazioni e consigli per poter realizzare al meglio
+l'applicativo.
+Per questo motivo abbiamo deciso di utilizzare due tecniche di elicitazione, una tecnica del tipo 
+stakeholder-driven usata in fase preliminare, e poi una tecnica de tipo artefact-driven.
+Inizialmente verrà erogata una intervista al rettore dell'università degli studi di Milano-Bicocca, utile
+per ottenere informazioni e consigli su come creare l'applicazione. 
+In seguito poi per ottenere un feedback sotto l'aspetto pratico verrà erogato un questionario a possibili
+utenti finali
+Segue uno schema riassuntivo della strategia:
+
 VA CAMBIATO COMPLETAMENTE!
 Dopo una prima analisi del background, si procede a parlare con il CEO del progetto e a decidere la 
 strategia migliore per ottenere informazioni dagli stakeholders. 
@@ -113,34 +127,36 @@ INTERVISTA
 (Le domande vanno ancora formulate)
 
 * Nome, Cognome e ruolo
-    Scopo, conoscere la persona che stiamo intervistando
+    -Scopo, conoscere la persona che stiamo intervistando
 
 * Mail o numero di telefono   
-    Scopo, avere il modo di poter ricontattare la persona intervistata
+    -Scopo, avere il modo di poter ricontattare la persona intervistata
 
 * Pensiero su progetto
-    Scopo, conoscere opinione di base del rettore e dell'università
+    -Scopo, conoscere opinione di base del rettore e dell'università
 
 * Aspetto legale/giuridico
-    Scopo, avere informazioni adeguate per rispettare con il nostro progetto le regole di ateneo
+    -Scopo, avere informazioni adeguate per rispettare con il nostro progetto le regole di ateneo
 
 * Aspetto economico
-    Scopo, avere un opinione sul sistema ideato per la retribuzione delle ripetizioni
+    -Scopo, avere un opinione sul sistema ideato per la retribuzione delle ripetizioni
 
 * Sito internet
-    Scopo, ottenere autorizzazione a creare una sezione applicativa su e-learning e delle sezioni informative 
+    -Scopo, ottenere autorizzazione a creare una sezione applicativa su e-learning e delle sezioni informative 
     sui vari siti dei corsi (per farvi capire un es. può essere Disco)
 
 * Suggerimenti
-    Scopo, ottenere consigli e opinioni utili dal parte del rettore 
+    -Scopo, ottenere consigli e opinioni utili dal parte del rettore 
 
 A causa del troppo tempo di attesa per ottenere un appuntamento con il rettore non siamo riusciti ad incontrare 
 il rettore e non siamo riusciti a svolgere l'intervista. 
 
+QUESTIONARIO
+
 Il questionario verrà somministrato dopo aver realizzato una prima versione dell'applicazione, basata sulle 
 consegne fornite dal professore al momento della consegna del progetto e in base anche ai consigli ottenuti dal 
 rettore. Somministreremo il questionario attraverso un form di google e avrà il compito di ottenere informazioni
-utili sull'aspetto pratic dell'applicazione.
+utili sull'aspetto pratico dell'applicazione.
 
 Il questionario è stato creato in modo da ricercare e trovare possibili modifiche e/o aggiunte da fare 
 all'applicazione in base alle preferenze, caratteristiche e abitudini dei possibili utilizzatori finali.
