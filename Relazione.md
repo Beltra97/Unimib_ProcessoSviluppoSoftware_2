@@ -85,3 +85,25 @@ ritrovarsi e magari creando delle classi di ripetizioni con più studenti contem
 
 * TEAM DI SVILUPPO: composto da programmatori ed ha l'obiettivo di realizzare l'applicazione mobile,
 disponibile sia su Android che su IOS.
+
+> **INTERVISTE E QUESTIONARI**
+
+(Titolo della sezione e contenuto da rivedere)
+
+L'intervista e i questionari saranno indirizzati rispettivamente ad uno degli stakeholders più 
+importanti (il rettore) e agli utenti fnali dell' applicazione, in modo da identificare al meglio
+le opinioni e le esigenze degli utilizzatori.
+Le informazioni che vengono ricavate  dgli utenti sopra citati, vengono considerate affidabili 
+rispetto a quelle ottenibili somministrando i questionari a utenti randomici che, non utilizzando
+l'applicazione, fornirebbero dati non utili al processo di elictazione.
+
+L'intervista è stata costruita in modo da ottenere da parte del rettore più informazioni e opinioni 
+utli possibili per poter realizzare al meglio un'applicazione che coniughi il rapporto tra funzionalità
+e soprattutto integrazione con l'università. 
+
+Da questa attivtà di elicitazione ci aspettiamo di ottenere conferme sui requisiti identificati dal 
+professore nel momento della somministrazione del progetto, inoltre ci aspettiamo anche informazioni a 
+livello giuridico ed economico in base al regolamento di ateneo.
+Oltre alle domande sottoposte al rettore, ci aspettiamo di ottenere dei consigli a livello sviluppativo.
+
+
