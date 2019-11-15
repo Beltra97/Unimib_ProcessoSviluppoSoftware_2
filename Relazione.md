@@ -11,7 +11,9 @@ Link repository: [2019_assignment2_unimib_tutoring_assistant](https://gitlab.com
 
 > **APPLICATION OVERVIEW**
 
-(modificare in base a idea avuta ieri sera!!)
+//modificare in base a idea avuta ieri sera e allineare con la versione inglese ben fatta!!
+
+
 L'obiettivo di questa applicazione è di aiutare gli utenti/studenti che studiano presso
 l'università degli studi di Milano Bicocca con un sistema che gestisce le ripetizioni per
 studenti che frequentano la stessa facoltà.
@@ -39,6 +41,9 @@ studente.
 
 > **BACKGROUND STUDY**
 
+//fare modifica scritta nel file in inglese
+
+
 Il mondo delle ripetizioni è un mondo vasto, le bacheche dell'università e i siti internet sono 
 pieni di annunci di persone che cercano o che vogliono erogare ripetizioni. 
 Esistono già siti come TrovaRipetizoni, piattaforma creata da degli studenti che cerca di creare una 
@@ -60,7 +65,10 @@ e studenti.
 
 > **ELICITATION STRATEGY OVERVIEW**
 
-(Possibile cambio dell'overview)
+//Overview aggiornato con quanto detto su telegram, io fare interviste al rettore per i motivi detti su telegram 
+e agli utenti finali per ottenere requisiti
+
+
 Dopo un'analisi preliminare avvenuta nella fase di background study, si procede a decidere con il 
 professore gli step da seguire per portare a termine il progetto.
 L'interazione con gli stakeholders è avvenuta attraverso techiniche diverse di elicitazione, usate
@@ -69,60 +77,65 @@ l'applicativo.
 Per questo motivo abbiamo deciso di utilizzare due tecniche di elicitazione, una tecnica del tipo 
 stakeholder-driven usata in fase preliminare, e poi una tecnica de tipo artefact-driven.
 Inizialmente verrà erogata una intervista al rettore dell'università degli studi di Milano-Bicocca, utile
-per ottenere informazioni e consigli su come creare l'applicazione. 
-In seguito poi per ottenere un feedback sotto l'aspetto pratico verrà erogato un questionario a possibili
-utenti finali
+per ottenere informazioni e consigli su come creare l'applicazione, e un'intervista ai possibili utenti 
+finali in modo da ottenere il maggior numero di informazioni utili per l'applicazione e sulle 
+funzionalità che essa mette a dispozione. 
+In seguito poi per ottenere un feedback su quello che è stato fatto verrà erogato un questionario ai 
+possibili utenti finali per poter valutare l'aspetto pratico.
 Segue uno schema riassuntivo della strategia:
-
-VA CAMBIATO COMPLETAMENTE!
-Dopo una prima analisi del background, si procede a parlare con il CEO del progetto e a decidere la 
-strategia migliore per ottenere informazioni dagli stakeholders. 
-Una volta ottenute tutte le informazioni necessarie, se questi requisiti non vanno in conflitto con 
-quanto richiesto dal CEO si può procedere con la creazione dell'applicazione.
-Se l'applicazione creata è fattibile allora si può concludere lo studio.
-Segue uno schema riassuntivo della strategia:
-
 
 > **STAKEHOLDERS**
 
 L'applicazione si rivolge principalmente agli studenti dell'università Milano-Bicocca,
 con la possibilità di estendersi in molti altri atenei italiani.
+Sono stati identificati diversi stakeholders;
 
-Gli stakeholder interessati sono:
+* CEO: si tratta del committente dell'applicazione, nel nostro caso è il professore che ci da 
+il progetto da fare (giusto chiamarlo ceo??)
 
-* CEO: si tratta del committente dell'applicazione, in quanto finanzia tutta l'attività di sviluppo, 
-di integrazione e si relaziona direttamente con l'ateneo.
+* UTENTI FINALI: classe che comprende due tipi di utenti,uno è uno studente che ha bisogno 
+di aiuto l'altro è uno studente che eroga ripetizioni. (GIUSTO)
 
-* UTENTE: si tratta dell'attore principale dell'applicazione, può essere uno studente che ha bisogno 
-di aiuto oppure uno studente che eroga ripetizioni.
-
-* UNIVERSITÀ: essa potrebbe incentivare l'utilizzo dell'applicazione fornendo delle aule in cui
-ritrovarsi e magari creando delle classi di ripetizioni con più studenti contemporaneamente.
+* RETTORE: Figura che collega il nostro progetto all'università, (vedi intervista)
 
 * TEAM DI SVILUPPO: composto da programmatori ed ha l'obiettivo di realizzare l'applicazione mobile,
-disponibile sia su Android che su IOS.
+disponibile sia su Android che su IOS.  (GIUSTO)
+
+* Per quanto detto nella lezione virtuale si potrebbe anche considerare come stakeholders chi gestisce 
+il sito dell'università, qualcuno che gestisce l'aspetto del trattamento dei dati personali e come si diceva 
+nell'audio magari possiamo evitare qualcuno che gestisce i pagamenti su carta. Bisogna capire se c'è modo
+di inserire questi come stakeholders non attivi (cioè non portano requisiti).
+
+Le interviste e il questionario verranno erogati principalmente agli stakeholders considerati attivi, come il 
+rettore e la classe degli utenti finali, per individuare eventuali problemi nell'utilizzo e quindi introdurre 
+la possibilità di miglioramenti futuri.
+Abbiamo deciso di non erogare questo test agli sviluppatori dell'applicazione, in quanto non sarebbero 
+in grado di dare risposte oggettive e/o trovare problemi nell'applicazione.
 
 > **INTERVISTE E QUESTIONARI**
 
 (Titolo della sezione e contenuto da rivedere)
 
-L'intervista e i questionari saranno indirizzati rispettivamente ad uno degli stakeholders più 
-importanti (il rettore) e agli utenti fnali dell' applicazione, in modo da identificare al meglio
-le opinioni e le esigenze degli utilizzatori.
+L'intervista e i questionari saranno indirizzati rispettivamente agli stakeholders più attivi,
+il rettore e alla classe degli utenti finali, in modo da identificare al meglio le opinioni e 
+le esigenze degli utilizzatori.
 Le informazioni che vengono ricavate  dgli utenti sopra citati, vengono considerate affidabili 
 rispetto a quelle ottenibili somministrando i questionari a utenti randomici che, non utilizzando
 l'applicazione, fornirebbero dati non utili al processo di elictazione.
 
-L'intervista è stata costruita in modo da ottenere da parte del rettore più informazioni e opinioni 
-utli possibili per poter realizzare al meglio un'applicazione che coniughi il rapporto tra funzionalità
-e soprattutto integrazione con l'università. 
+L'intervista al rettore è stata costruita in modo da ottenere più informazioni e opinioni utili possibili
+per poter realizzare al meglio un'applicazione che coniughi il rapporto tra funzionalità e soprattutto 
+integrazione con l'università.
 
-Da questa attivtà di elicitazione ci aspettiamo di ottenere conferme sui requisiti identificati dal 
-professore nel momento della somministrazione del progetto, inoltre ci aspettiamo anche informazioni a 
-livello giuridico ed economico in base al regolamento di ateneo.
-Oltre alle domande sottoposte al rettore, ci aspettiamo di ottenere dei consigli a livello sviluppativo.
+L'intervista agli utenti finali, invece, è stata strutturata in modo da ricavare più informazioni utili 
+possibili per l'utilità dell'applicazione. Si prevede che con l'intervista gli sviluppatori ottengano 
+risultati utili alla formazione di essa.
 
-INTERVISTA
+Da questa attivtà di elicitazione ci aspettiamo di ottenere più requisiti possibili utili per poter creare
+l'applicazione, inoltre speriamo anche di ottenere informazioni a livello giuridico ed economico in base 
+al regolamento di ateneo.
+
+INTERVISTA RETTORE
 
 (Le domande vanno ancora formulate)
 
@@ -151,12 +164,16 @@ INTERVISTA
 A causa del troppo tempo di attesa per ottenere un appuntamento con il rettore non siamo riusciti ad incontrare 
 il rettore e non siamo riusciti a svolgere l'intervista. 
 
-QUESTIONARIO
+INTERVISTA UTENTI FINALI
 
-Il questionario verrà somministrato dopo aver realizzato una prima versione dell'applicazione, basata sulle 
-consegne fornite dal professore al momento della consegna del progetto e in base anche ai consigli ottenuti dal 
-rettore. Somministreremo il questionario attraverso un form di google e avrà il compito di ottenere informazioni
-utili sull'aspetto pratico dell'applicazione.
+* DA FARE
+
+QUESTIONARIO UTENTI FINALI 
+
+Il questionario verrà somministrato dopo aver realizzato l'intervista, aver utilizzato le risposte ottenute per craere 
+dei requisiti e in base anche ai consigli ottenuti dal rettore. 
+Somministreremo il questionario attraverso un form di google e avrà il compito di ottenere informazioni utili 
+sull'aspetto pratico dell'applicazione.
 
 Il questionario è stato creato in modo da ricercare e trovare possibili modifiche e/o aggiunte da fare 
 all'applicazione in base alle preferenze, caratteristiche e abitudini dei possibili utilizzatori finali.
