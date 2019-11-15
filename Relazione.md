@@ -11,6 +11,7 @@ Link repository: [2019_assignment2_unimib_tutoring_assistant](https://gitlab.com
 
 > **APPLICATION OVERVIEW**
 
+(modificare in base a idea avuta ieri sera!!)
 L'obiettivo di questa applicazione è di aiutare gli utenti/studenti che studiano presso
 l'università degli studi di Milano Bicocca con un sistema che gestisce le ripetizioni per
 studenti che frequentano la stessa facoltà.
@@ -59,6 +60,7 @@ e studenti.
 
 > **ELICITATION STRATEGY OVERVIEW**
 
+VA CAMBIATO COMPLETAMENTE!
 Dopo una prima analisi del background, si procede a parlare con il CEO del progetto e a decidere la 
 strategia migliore per ottenere informazioni dagli stakeholders. 
 Una volta ottenute tutte le informazioni necessarie, se questi requisiti non vanno in conflitto con 
@@ -105,5 +107,42 @@ Da questa attivtà di elicitazione ci aspettiamo di ottenere conferme sui requis
 professore nel momento della somministrazione del progetto, inoltre ci aspettiamo anche informazioni a 
 livello giuridico ed economico in base al regolamento di ateneo.
 Oltre alle domande sottoposte al rettore, ci aspettiamo di ottenere dei consigli a livello sviluppativo.
+
+INTERVISTA
+
+(Le domande vanno ancora formulate)
+
+* Nome, Cognome e ruolo
+    Scopo, conoscere la persona che stiamo intervistando
+
+* Mail o numero di telefono   
+    Scopo, avere il modo di poter ricontattare la persona intervistata
+
+* Pensiero su progetto
+    Scopo, conoscere opinione di base del rettore e dell'università
+
+* Aspetto legale/giuridico
+    Scopo, avere informazioni adeguate per rispettare con il nostro progetto le regole di ateneo
+
+* Aspetto economico
+    Scopo, avere un opinione sul sistema ideato per la retribuzione delle ripetizioni
+
+* Sito internet
+    Scopo, ottenere autorizzazione a creare una sezione applicativa su e-learning e delle sezioni informative 
+    sui vari siti dei corsi (per farvi capire un es. può essere Disco)
+
+* Suggerimenti
+    Scopo, ottenere consigli e opinioni utili dal parte del rettore 
+
+A causa del troppo tempo di attesa per ottenere un appuntamento con il rettore non siamo riusciti ad incontrare 
+il rettore e non siamo riusciti a svolgere l'intervista. 
+
+Il questionario verrà somministrato dopo aver realizzato una prima versione dell'applicazione, basata sulle 
+consegne fornite dal professore al momento della consegna del progetto e in base anche ai consigli ottenuti dal 
+rettore. Somministreremo il questionario attraverso un form di google e avrà il compito di ottenere informazioni
+utili sull'aspetto pratic dell'applicazione.
+
+Il questionario è stato creato in modo da ricercare e trovare possibili modifiche e/o aggiunte da fare 
+all'applicazione in base alle preferenze, caratteristiche e abitudini dei possibili utilizzatori finali.
 
 
