@@ -16,10 +16,13 @@
 ## **APPLICATION OVERVIEW**
 
 **UNIMIB Tutoring Assistant** is a to-be-developed _Mobile Application_ aiming to provide a simple yet powerful tool for handling private tutoring among students of the _University of Milano-Bicocca_.
+
 The core concept behind this application is to allow students to offer and to search for private lessons in a modern, simple and immediate way, thus creating a trusted **network** of _teachers_ and _students_.
 
 **UNIMIB Tutoring Assistant** was born from a _public competition_ published by **Regione Lombardia** and won by the _University of Milano-Bicocca_. The competition was created in order to experiment a software solution to automate private tutoring between students of (at least initially) the same premises; the automation objectives are many: for instance, collecting of statistical data and helping off-premise students organize better their schedules.
+
 Group 25 was formed by three students of the _University of Milano-Bicocca_ that won a scholarship for an internship dedicated to the development of the mobile application.
+
 The _public competition_ did not come with an in-depth list of requirements for the software to be met; instead, it described the application at high-level by providing a ideal workflow that will be presented in this overview.
 
 Before presenting the overview, it is fundamental to introduce the different types of user that will be interacting with the system.
@@ -30,9 +33,12 @@ Before presenting the overview, it is fundamental to introduce the different typ
 Since the application aims to build a social network, another type of user will be necessary, even though it will operate on a Back-Office Environment:
 1. Administrators
 
-Regarding the two key users for the Mobile Application, it will be required for them to **register** to the service and fill their profile with some mandatory information: _personal data_, _personal snapshot_ and _field of study/interest_.
+Regarding the two key users for the Mobile Application, it will be required for them to **register** to the service and fill in their profile with some mandatory information: _personal data_, _personal snapshot_ and _field of study/interest_.
+
 After **logging in**, they can choose to _Search for Private Lessons_ (filtered, at least initially, by chosen _field of study/interest_) or _Offer Private Lessons_ by compiling a form with some mandatory and optional informations.
+
 An user in need of a private lesson can start to schedule a meeting with an offerer. During the scheduling the application will allow the users to send _instant messages_ to communicate and to _check reviews_ about the other user, other than, of course, negotiate the _date of meeting_ and other _meeting details_.
+
 After a certain time after every meeting, both actors will be able to send a review about the meeting in order to give future users a better way to find an appropriate match for their needs.
 
 In the ideal scenario, the application will be presented to the higher-ups of the University in order to be officially promoted.
@@ -40,7 +46,9 @@ In the ideal scenario, the application will be presented to the higher-ups of th
 ## **REQUIREMENT ENGINEERING**
 
 The first step of _Software Development_ is **Requirements Engineering**. **Requirements Engineering** is fundamental in order to fully understand and define what the _Software TO-BE_ should accomplish in a **context** full of determined _assumptions_ and _properties_.
+
 In **Requirements Engineering**, **Requirements Elicitation** is the practice of researching and discovering the requirements of a system.
+
 A standard **Elicitation Strategy** usually starts with a complete analysis of the _Software AS-IS_, in order to find a set of weaknesses that need to be addressed by the software solution that is going to be developed; in this case, though, since **UNIMIB Tutoring Assistant** is a to-be-developed _Mobile Application_, a good approach to start with **Requirements Elicitation** is to gain knowledge about the software domain through a **Background Study**.
 
 ## **BACKGROUND STUDY**
