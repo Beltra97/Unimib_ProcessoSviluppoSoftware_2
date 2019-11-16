@@ -42,27 +42,38 @@ In the ideal scenario, the application will be presented to the higher-ups of th
 
 ## **REQUIREMENT ENGINEERING**
 
-The first step of _Software Development_ is **Requirements Engineering**. **Requirements Engineering** is fundamental in order to fully understand and define what the _Software TO-BE_ should accomplish in a **context** full of determined _assumptions_ and _properties_.
+The first step of _Software Development_ is **Requirements Engineering**. **Requirements Engineering** is fundamental in order to fully understand and define what the _Software TO-BE_ should accomplish in a **context** full of determined _assumptions_ and _properties_. Its output is a **set of requirements** for the _Software TO-BE_.
 
-In **Requirements Engineering**, **Requirements Elicitation** is the practice of researching and discovering the requirements of a system.
+The focus of this document is defining and documenting the first two steps of **Requirements Engineering**:
+1. **Domain Understading**: this phase is fundamental for **identifying the Stakeholders** and for studying _Application Domain_ and _Business Organization_.
+2. **Requirements Elicitation**: this phase regards researching and discovering the requirements of a system.
+
+## **DOMAIN UNDERSTANDING: IDENTIFYING THE STAKEHOLDERS**
+
+The core subject of **Domain Understading** is to find a representative set of **Stakeholders** required in order to understand _from_ them and _with_ them what is required for the _Software TO-BE_ to accomplish.
+
+As it is known from literature, there are some relevant aspects to consider for **Stakeholders** selection; some of them are:
+1. Their position in the target organization.
+2. Their role in making desition about the _System TO-BE_.
+3. Their exposure to the perceived problem or required need.
+4. Their level of Domain expertise.
+
+With these key aspects in mind, a first set of **Stakeholders** was chosen; _it is important to note_ that since **Requirements Engineering** is an iterative process, more **Stakeholders** could be added to the list after **Requirements Elicitation** or after a full cycle of development.
+
+> **Stakeholders List**
+
+1. **Product Owner: the professor in charge of the project**: a professor was appointed from the University to handle the management of the project obtained from the _public competition_. They (Editor's note: the professor's gender is irrelevant for this document) will keep in touch with the developers during all the stages of development to guide and help them. Furthermore, they are helping to set up the project thanks to their knowledge and experience in Project Managing: this is the reason why they are a mandatory _Stakeholder_ to consider in the **Requirements Engineering**.
+2. **Developers Team**: they are a necessary _Stakeholder_ because their input is mandatory **before** the development start in order to estimate the _requirements_ and decide the technologies for the development (for instance, are they more confident with hybrid or native development?).
+3. **Head of IT of the University of Milano-Bicocca**: this _Stakeholder_ was considered required for many reasons: with their expertise they could guide the developers through problems of legal, economic, etc. values. In addition, they could help identifying other useful _Stakeholders_ (for instance, a _Stakeholder_ that could provide the developers a Server for the App Database). Lastly, they could help the developers with some exposure through existing systems of the _University of Milano-Bicocca_.
+4. **Students from the University of Milano-Bicocca**: they are the most important _Stakeholder_ as they are the final user; they split in two classes:
+	1. **Students who search for private lessons**.
+	2. **Students who offer private lessons**.
+5. **UX/UI Expert**: could be a useful _Stakeholder_ since the main focus of the Mobile App is offering a modern, immediate but complete feel.
+
+## **REQUIREMENTS ELICITATION: ELICITATION STRATEGY OVERVIEW**
 
 A standard **Elicitation Strategy** usually starts with a complete analysis of the _Software AS-IS_, in order to find a set of weaknesses that need to be addressed by the software solution that is going to be developed; in this case, though, since **UNIMIB Tutoring Assistant** is a __to-be-developed__ _Mobile Application_, a good approach to start with **Requirements Elicitation** is to gain knowledge about the software domain through a **Background Study**.
 
-## **BACKGROUND STUDY**
-
-//TODO: **Background Study** is an ARTEFACT-DRIVEN ELICITATION TECHNIQUE
-//TODO: Aggiungere Refs e qualche info in più se possibile
-
-Il mondo delle ripetizioni è un mondo vasto, le bacheche dell'università e i siti internet sono pieni di annunci di persone che cercano o che vogliono erogare ripetizioni. 
-Esistono già siti come TrovaRipetizoni, piattaforma creata da degli studenti che cerca di creare una rete molto ampia (tutta Italia) e quindi non ancora può fornire una copertura adeguata o applicazioni come Bravoapp, che fornisce la possibilità di sottoscrivere abbonamenti mensili per gli insegnanti e di effettuare ricerche gratuite per chi cerca ripetizioni.
-Un altro caso di studio è SuperProf.it, anche questo sito permette di cercare degli studenti che facciano ripetizioni in una zona selezionata. Un punto di forza di questa piattaforma è sicuramente la possibilità di dare lezioni online, attraverso l'utilizzo di Skype, Hangouts o FaceTime. In questo modo è possibile seguire/fornire una ripetizione direttamente da casa propria. 
-Un'app molto simile, che permette di tenere lezioni anche a grandi distanze è iTeach, essa utilizza internet per gestire la comunicazione tra le parti.
-Il nostro obiettivo è differenziarci un minimo da questi applicativi, localizzandoci in un luogo preciso, dando la possibilità anche a chi eroga una ripetizione di poter lasciare un feedback (cosa che non accade in altri applicativi esistenti) e quindi cercando di agevolare l'esperienza universitaria dei nostri studenti sotto ogni aspetto.
-Questa applicazione può essere un ulteriore possibilità di contatto e condivisione tra università e studenti.
-
-## **ELICITATION STRATEGY OVERVIEW**
-
-// TODO: comunque anche background study fa parte dell'elicitation; in questo caso è ok metterlo a priori ma va giustificata la cosa
 //TODO: Ampliare, specificare seconda fase: artifact-driven (questionario, scegliere studenti principalmente della bicocca perché possono esserci problematicità specifiche. intervista con domande chiuse e brevi per ridurre costi e non scocciare l'intervistato che comunque è uno studente e non ha voglia. parlare anche del metodo di distribuzione fisico (link distribuito come?)) e prima fase: stakeholder-driven (intervista (l'intervista può essere strutturata e non, è usata per raccogliere reqs parlando con stakeholders/cliente))
 
 //Modifica del file italiano, va bene? ho specificato le tecniche di elicitazione.
@@ -84,34 +95,35 @@ Segue uno schema riassuntivo della strategia:
 
 //TODO: img: assets/SE.png
 
-## **STAKEHOLDERS**
+## **BACKGROUND STUDY**
 
-//TODO: DomUnderstandingAndReqElicitation.pdf->P4 ===> Introduzione di perché sono stati scelti i stakeholder (=ispirandosi alla letteratura è stato scelto X perché Y), Rivedere gli stakeholder (non serve filtro di età)
+//TODO: **Background Study** is an ARTEFACT-DRIVEN ELICITATION TECHNIQUE
+//TODO: Aggiungere Refs e qualche info in più se possibile
 
-L'applicazione si rivolge principalmente agli studenti dell'università Milano-Bicocca,
-con la possibilità di estendersi in molti altri atenei italiani.
-Sono stati identificati diversi stakeholders:
+Il mondo delle ripetizioni è un mondo vasto, le bacheche dell'università e i siti internet sono pieni di annunci di persone che cercano o che vogliono erogare ripetizioni. 
+Esistono già siti come TrovaRipetizoni, piattaforma creata da degli studenti che cerca di creare una rete molto ampia (tutta Italia) e quindi non ancora può fornire una copertura adeguata o applicazioni come Bravoapp, che fornisce la possibilità di sottoscrivere abbonamenti mensili per gli insegnanti e di effettuare ricerche gratuite per chi cerca ripetizioni.
+Un altro caso di studio è SuperProf.it, anche questo sito permette di cercare degli studenti che facciano ripetizioni in una zona selezionata. Un punto di forza di questa piattaforma è sicuramente la possibilità di dare lezioni online, attraverso l'utilizzo di Skype, Hangouts o FaceTime. In questo modo è possibile seguire/fornire una ripetizione direttamente da casa propria. 
+Un'app molto simile, che permette di tenere lezioni anche a grandi distanze è iTeach, essa utilizza internet per gestire la comunicazione tra le parti.
+Il nostro obiettivo è differenziarci un minimo da questi applicativi, localizzandoci in un luogo preciso, dando la possibilità anche a chi eroga una ripetizione di poter lasciare un feedback (cosa che non accade in altri applicativi esistenti) e quindi cercando di agevolare l'esperienza universitaria dei nostri studenti sotto ogni aspetto.
+Questa applicazione può essere un ulteriore possibilità di contatto e condivisione tra università e studenti.
 
-* PRODUCT OWNER: Il professore, dopo la competizione della regione Lombardia, eroga la consegna del progetto al gruppo vincitore. Avrà il compito di rimanere aggiornato 
-su quanto il team di sviluppo sta svolengdo e di poter dare consigli sulle realizzazione dell'applicativo.
+## **PRESENTATION OF INTERVIEW**
 
-* UTENTI FINALI: Sono gli stakeholders più importanti in quanto sono coloro che alla fine useranno l'applicazione. È una classe che si divide in due:
- - Utenti che hanno bisogno di ripetizioni
- - Utenti che erogano ripetizioni
-Nell'attività di elicitazione saranno importanti in quanto attraverso l'intervista forniranno i requisiti e le esigenze che l'applicazione deve seguire. 
+//TODO
 
-* RETTORE: Figura che collega il nostro progetto all'università, attraverso all'attività di elicitazione ci può aiutare con consigli sotto l'aspetto legale ed economico.
+## **RESULT OF THE INTERVIEW**
 
-* TEAM DI SVILUPPO: composto da programmatori ed ha l'obiettivo di realizzare l'applicazione mobile,
-disponibile sia su Android che su IOS.  (GIUSTO)
+//TODO
 
-* IT SERVICE: Specialisti del sito internet, utili per avere consigli su come poter inserire il nostro applicato online. Attraverso una conference call si potrebbero ottenere spunti 
-e avere il permesso di poter modificare il loro codice.
+## **PRESENTATION OF QUESTIONNAIRE**
 
-* LEGAL TEAM: TEam di esperti che forniscono un aiuto sotto l'aspetto del trattamento dei dati personali. 
+//TODO
 
-* ECONOMIC TEAM: Si potrebbe creare un sistema di retribuzione attraverso il badge universitario. Per questo scopo avremo bisogno di un team esperto in economia, che possa indirizzarci 
-nella creazione di un sistema veloce e pratico.
+## **RESULT OF THE QUESTIONNAIRE**
+
+//TODO
+
+## **---DRAFT PARTS---**
 
 (Conference call con i vari team altra attività elicitazione?? per me si)
 
@@ -190,24 +202,3 @@ sull'aspetto pratico dell'applicazione.
 
 Il questionario è stato creato in modo da ricercare e trovare possibili modifiche e/o aggiunte da fare 
 all'applicazione in base alle preferenze, caratteristiche e abitudini dei possibili utilizzatori finali.
-
-
-## **PLAN**
-
-//TODO
-
-## **PRESENTATION OF INTERVIEW**
-
-//TODO
-
-## **RESULT OF THE INTERVIEW**
-
-//TODO
-
-## **PRESENTATION OF QUESTIONNAIRE**
-
-//TODO
-
-## **RESULT OF THE QUESTIONNAIRE**
-
-//TODO
