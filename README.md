@@ -92,21 +92,30 @@ L'applicazione si rivolge principalmente agli studenti dell'università Milano-B
 con la possibilità di estendersi in molti altri atenei italiani.
 Sono stati identificati diversi stakeholders:
 
-* CEO: si tratta del committente dell'applicazione, nel nostro caso è il professore che ci da 
-il progetto da fare (giusto chiamarlo ceo?? Direi product owner)
+* PRODUCT OWNER: Il professore, dopo la competizione della regione Lombardia, eroga la consegna del progetto al gruppo vincitore. Avrà il compito di rimanere aggiornato 
+su quanto il team di sviluppo sta svolengdo e di poter dare consigli sulle realizzazione dell'applicativo.
 
-* UTENTI FINALI: classe che comprende due tipi di utenti,uno è lo studente che ha bisogno di aiuto
-l'altro è lo studente che eroga ripetizioni. (GIUSTO)
+* UTENTI FINALI: Sono gli stakeholders più importanti in quanto sono coloro che alla fine useranno l'applicazione. È una classe che si divide in due:
+ - Utenti che hanno bisogno di ripetizioni
+ - Utenti che erogano ripetizioni
+Nell'attività di elicitazione saranno importanti in quanto attraverso l'intervista forniranno i requisiti e le esigenze che l'applicazione deve seguire. 
 
-* RETTORE: Figura che collega il nostro progetto all'università, (vedi intervista)
+* RETTORE: Figura che collega il nostro progetto all'università, attraverso all'attività di elicitazione ci può aiutare con consigli sotto l'aspetto legale ed economico.
 
 * TEAM DI SVILUPPO: composto da programmatori ed ha l'obiettivo di realizzare l'applicazione mobile,
 disponibile sia su Android che su IOS.  (GIUSTO)
 
-* Per quanto detto nella lezione virtuale si potrebbe anche considerare come stakeholders chi gestisce 
-il sito dell'università, qualcuno che gestisce l'aspetto del trattamento dei dati personali e come si diceva 
-nell'audio magari possiamo evitare qualcuno che gestisce i pagamenti su carta. Bisogna capire se c'è modo
-di inserire questi come stakeholders non attivi (cioè non portano requisiti).
+* IT SERVICE: Specialisti del sito internet, utili per avere consigli su come poter inserire il nostro applicato online. Attraverso una conference call si potrebbero ottenere spunti 
+e avere il permesso di poter modificare il loro codice.
+
+* LEGAL TEAM: TEam di esperti che forniscono un aiuto sotto l'aspetto del trattamento dei dati personali. 
+
+* ECONOMIC TEAM: Si potrebbe creare un sistema di retribuzione attraverso il badge universitario. Per questo scopo avremo bisogno di un team esperto in economia, che possa indirizzarci 
+nella creazione di un sistema veloce e pratico.
+
+(Conference call con i vari team altra attività elicitazione?? per me si)
+
+// se mettiamo gli stakeholders che dico io va modificata la parte sotto
 
 Le interviste e il questionario verranno erogati principalmente agli stakeholders considerati attivi, come il 
 rettore e la classe degli utenti finali, per individuare eventuali problemi nell'utilizzo e quindi introdurre 
@@ -169,6 +178,8 @@ il rettore e non siamo riusciti a svolgere l'intervista.
 INTERVISTA UTENTI FINALI
 
 * DA FARE
+
+EVENTUALI CONFERENCE CALL/INTERVISTE
 
 QUESTIONARIO UTENTI FINALI 
 
