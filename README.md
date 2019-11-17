@@ -60,7 +60,7 @@ As it is known from literature, there are some relevant aspects to consider for 
 
 With these key aspects in mind, a first set of **Stakeholders** was chosen; _it is important to note_ that since **Requirements Engineering** is an iterative process, more **Stakeholders** could be added to the list after **Requirements Elicitation** or after a full cycle of development.
 
-> **Stakeholders List**
+> **STAKEHOLDERS LIST**
 
 1. **Product Owner: the professor in charge of the project**: a professor was appointed from the University to handle the management of the project obtained from the _public competition_. They (Editor's note: the professor's gender is irrelevant for this document) will keep in touch with the developers during all the stages of development to guide and help them. Furthermore, they are helping to set up the project thanks to their knowledge and experience in Project Managing: this is the reason why they are a mandatory _Stakeholder_ to consider in the **Requirements Engineering**.
 2. **Developers Team**: they are a necessary _Stakeholder_ because their input is mandatory **before** the development start in order to estimate the _requirements_ and decide the technologies for the development (for instance, are they more confident with hybrid or native development?).
@@ -72,46 +72,39 @@ With these key aspects in mind, a first set of **Stakeholders** was chosen; _it 
 
 ## **REQUIREMENTS ELICITATION: ELICITATION STRATEGY OVERVIEW**
 
+This section provides an in-depth description of the elicitation activities plan.
+
+As previously mentioned, **Requirements Elicitation** is the second step of **Requirements Engineering** and its objective is researching and discovering the requirements of a system, mostly (but not exclusively) by interacting with the identified _Stakeholders_ through different **Elicitation Techniques**.
+
+**Elicitation Techniques** can be classified into two classes:
+1. **Artefact-Driven Elicitation Techniques**: some of these techniques comprehend:
+	1. **Background Study**: it is used to gain knowledge about the software domain.
+	2. **Questionnaires**: they provide access to subjective information quickly, cheaply and, if needed, remotely. They are also helpful for preparing better focused _Interviews_.
+	3. **Prototypes and Mock-ups**: they allow concrete (but, of course, limited) exploration of the _Software TO-BE_.
+	4. And more...
+2. **Stakeholder-Driven Elicitation Techniques**: some of these techniques comprehend:
+	1. **Interviews**: they are the primary technique for knowledge elicitation. There are two types of interviews:
+		1. **Structured Interviews**: they are focused on a specific purpose and thus they must provide a predetermined set of questions.
+		2. **Unstructured Interviews**: they allow for free discussion and do not need a predetermined set of questions.
+	2. **Group Sessions**: they can be **Structured** and **Unstructured** and generally concede wider exploration of issues and ideas coming from the _Stakeholders_.
+	3. And more...
+
 A standard **Elicitation Strategy** usually starts with a complete analysis of the _Software AS-IS_, in order to find a set of weaknesses that need to be addressed by the software solution that is going to be developed; in this case, though, since **UNIMIB Tutoring Assistant** is a __to-be-developed__ _Mobile Application_, a good approach to start with **Requirements Elicitation** is to gain knowledge about the software domain through a **Background Study**.
 
-//TODO: Ampliare, specificare seconda fase: artifact-driven (questionario, scegliere studenti principalmente della bicocca perché possono esserci problematicità specifiche. intervista con domande chiuse e brevi per ridurre costi e non scocciare l'intervistato che comunque è uno studente e non ha voglia. parlare anche del metodo di distribuzione fisico (link distribuito come?)) e prima fase: stakeholder-driven (intervista (l'intervista può essere strutturata e non, è usata per raccogliere reqs parlando con stakeholders/cliente))
+Given this assuption, the chosen **Elicitation Strategy** for **UNIMIB Tutoring Assistant** is structured as it follows:
+1. **Background Study**: to gain knowledge about the software domain, mostly through the analysis of system in the same domain (the domain of private lessons). The main objective of this activity is to discover some features that will render **UNIMIB Tutoring Assistant** unique in its domain, and produce _requirements_ starting from them.
+2. **Questionnaire for students from the University of Milano-Bicocca**: the questionnaire aims to collect as much data as possible from the final users: the students. It will be divided in two sections to separate students offering private lessons from students who are in need of private lessons. It will be required that the students are enrolled to the _University of Milano-Bicocca_ because they could offer insight about some difficulties related to the University (for instance, availability of study halls); no other restriction is needed for the sample to be adeguate to required needs. For the questionnaire to be effective, the questions will be short, weighting and mostly closed-ended to avoid their compiling proves laborious. The questionnaire will be created through Google Forms and submitted to students with the help of **the professor in charge of the project**. The data collected will be used to produce particular _requirements_ based on the final users needs.
+3. **Interview with the Head of IT of the University of Milano-Bicocca**: the interview with the _Head of IT_ should be the first one to be executed as it is needed to find potential criticalities of legal, economic, etc. values and it can give insight on how to treat them. The interview should be **Unstructured** and its output would be a set of _feasible_ and _necessary_ requirements for what is the University concern.
+4. **Interview with a sample of students who offer and receive private lessons (not necessarily from the University of Milano-Bicocca)**: this interview will heavily use the output from the _questionnaire_ in order to gain information from the students sample. For this interview, the students are considered **experts of domain** and not **final users**. The interview will be **Structured**, as a set of questions will be presented to the interviewed. The expected output of this activity is a set or _requirements_ focused on the private lessons domain.
+5. **Interview with an UX/UI Expert**: the interview with the _UX/UI Expert_ should be the last one to be executed. The expertise of the _UX/UI Expert_ should help produce _requirements_ to improve the UX/UI of the _Mobile Application_ (the UX/UI is needed to be as performant as possible, as stated in the Application Overview). Since the objective of this interview is to obtain as many informations as possible from the interviewed expertise, the interview should be **Unstructured**.
 
-//Modifica del file italiano, va bene? ho specificato le tecniche di elicitazione.
+Below, a visual representation of the **Elicitation Strategy**:
 
-Dopo un'analisi preliminare avvenuta nella fase di background study, si procede a decidere con il
-professore gli step da seguire per portare a termine il progetto.
-L'interazione con gli stakeholders è avvenuta attraverso techiniche diverse di elicitazione, usate
-per poter ottenere il maggior numero di opinioni, informazioni e consigli per poter realizzare al meglio
-l'applicativo.
-Per questo motivo abbiamo deciso di utilizzare due tecniche di elicitazione, una tecnica del tipo
-stakeholder-driven usata in fase preliminare, e poi una tecnica de tipo artefact-driven.
-Inizialmente verrà erogata una intervista al rettore dell'università degli studi di Milano-Bicocca, utile
-per ottenere informazioni e consigli su come creare l'applicazione, e un'intervista ai possibili utenti
-finali in modo da ottenere il maggior numero di informazioni utili per l'applicazione e sulle
-funzionalità che essa mette a dispozione.
-In seguito poi per ottenere un feedback su quello che è stato fatto verrà erogato un questionario ai
-possibili utenti finali per poter valutare l'aspetto pratico.
-Segue uno schema riassuntivo della strategia:
+![][assets/SE.png]
 
-//TODO: img: assets/SE.png
+In the next sections will be presented in-depth considerations about three activities of the elicitation plan: **Background Study**, **Questionnaire for students from the University of Milano-Bicocca** and **Interview with a sample of students who offer and receive private lessons (not necessarily from the University of Milano-Bicocca)**.
 
 ## **BACKGROUND STUDY**
-
-//TODO: **Background Study** is an ARTEFACT-DRIVEN ELICITATION TECHNIQUE
-//TODO: Aggiungere Refs e qualche info in più se possibile
-
-Il mondo delle ripetizioni è un mondo vasto, le bacheche dell'università e i siti internet sono pieni di annunci di persone che cercano o che vogliono erogare ripetizioni. 
-Esistono già siti come TrovaRipetizoni, piattaforma creata da degli studenti che cerca di creare una rete molto ampia (tutta Italia) e quindi non ancora può fornire una copertura adeguata o applicazioni come Bravoapp, che fornisce la possibilità di sottoscrivere abbonamenti mensili per gli insegnanti e di effettuare ricerche gratuite per chi cerca ripetizioni.
-Un altro caso di studio è SuperProf.it, anche questo sito permette di cercare degli studenti che facciano ripetizioni in una zona selezionata. Un punto di forza di questa piattaforma è sicuramente la possibilità di dare lezioni online, attraverso l'utilizzo di Skype, Hangouts o FaceTime. In questo modo è possibile seguire/fornire una ripetizione direttamente da casa propria. 
-Un'app molto simile, che permette di tenere lezioni anche a grandi distanze è iTeach, essa utilizza internet per gestire la comunicazione tra le parti.
-Il nostro obiettivo è differenziarci un minimo da questi applicativi, localizzandoci in un luogo preciso, dando la possibilità anche a chi eroga una ripetizione di poter lasciare un feedback (cosa che non accade in altri applicativi esistenti) e quindi cercando di agevolare l'esperienza universitaria dei nostri studenti sotto ogni aspetto.
-Questa applicazione può essere un ulteriore possibilità di contatto e condivisione tra università e studenti.
-
-## **PRESENTATION OF INTERVIEW**
-
-//TODO
-
-## **RESULT OF THE INTERVIEW**
 
 //TODO
 
@@ -123,82 +116,10 @@ Questa applicazione può essere un ulteriore possibilità di contatto e condivis
 
 //TODO
 
-## **---DRAFT PARTS---**
+## **PRESENTATION OF INTERVIEW**
 
-(Conference call con i vari team altra attività elicitazione?? per me si)
+//TODO
 
-// se mettiamo gli stakeholders che dico io va modificata la parte sotto
+## **RESULT OF THE INTERVIEW**
 
-Le interviste e il questionario verranno erogati principalmente agli stakeholders considerati attivi, come il 
-rettore e la classe degli utenti finali, per individuare eventuali problemi nell'utilizzo e quindi introdurre 
-la possibilità di miglioramenti futuri.
-Abbiamo deciso di non erogare questo test agli sviluppatori dell'applicazione, in quanto non sarebbero 
-in grado di dare risposte oggettive e/o trovare problemi nell'applicazione.
-
-> **INTERVISTE E QUESTIONARI**
-
-(Titolo della sezione e contenuto da rivedere)
-
-L'intervista e i questionari saranno indirizzati rispettivamente agli stakeholders più attivi,
-il rettore e alla classe degli utenti finali, in modo da identificare al meglio le opinioni e 
-le esigenze degli utilizzatori.
-Le informazioni che vengono ricavate  dgli utenti sopra citati, vengono considerate affidabili 
-rispetto a quelle ottenibili somministrando i questionari a utenti randomici che, non utilizzando
-l'applicazione, fornirebbero dati non utili al processo di elictazione.
-
-L'intervista al rettore è stata costruita in modo da ottenere più informazioni e opinioni utili possibili
-per poter realizzare al meglio un'applicazione che coniughi il rapporto tra funzionalità e soprattutto 
-integrazione con l'università.
-
-L'intervista agli utenti finali, invece, è stata strutturata in modo da ricavare più informazioni utili 
-possibili per l'utilità dell'applicazione. Si prevede che con l'intervista gli sviluppatori ottengano 
-risultati utili alla formazione di essa.
-
-Da questa attivtà di elicitazione ci aspettiamo di ottenere più requisiti possibili utili per poter creare
-l'applicazione, inoltre speriamo anche di ottenere informazioni a livello giuridico ed economico in base 
-al regolamento di ateneo.
-
-INTERVISTA RETTORE
-
-(Le domande vanno ancora formulate)
-
-* Nome, Cognome e ruolo
-    -Scopo, conoscere la persona che stiamo intervistando
-
-* Mail o numero di telefono   
-    -Scopo, avere il modo di poter ricontattare la persona intervistata
-
-* Pensiero su progetto
-    -Scopo, conoscere opinione di base del rettore e dell'università
-
-* Aspetto legale/giuridico
-    -Scopo, avere informazioni adeguate per rispettare con il nostro progetto le regole di ateneo
-
-* Aspetto economico
-    -Scopo, avere un opinione sul sistema ideato per la retribuzione delle ripetizioni
-
-* Sito internet
-    -Scopo, ottenere autorizzazione a creare una sezione applicativa su e-learning e delle sezioni informative 
-    sui vari siti dei corsi (per farvi capire un es. può essere Disco)
-
-* Suggerimenti
-    -Scopo, ottenere consigli e opinioni utili dal parte del rettore 
-
-A causa del troppo tempo di attesa per ottenere un appuntamento con il rettore non siamo riusciti ad incontrare 
-il rettore e non siamo riusciti a svolgere l'intervista. 
-
-INTERVISTA UTENTI FINALI
-
-* DA FARE
-
-EVENTUALI CONFERENCE CALL/INTERVISTE
-
-QUESTIONARIO UTENTI FINALI 
-
-Il questionario verrà somministrato dopo aver realizzato l'intervista, aver utilizzato le risposte ottenute per craere 
-dei requisiti e in base anche ai consigli ottenuti dal rettore. 
-Somministreremo il questionario attraverso un form di google e avrà il compito di ottenere informazioni utili 
-sull'aspetto pratico dell'applicazione.
-
-Il questionario è stato creato in modo da ricercare e trovare possibili modifiche e/o aggiunte da fare 
-all'applicazione in base alle preferenze, caratteristiche e abitudini dei possibili utilizzatori finali.
+//TODO
