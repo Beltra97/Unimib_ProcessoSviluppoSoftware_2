@@ -63,6 +63,12 @@ universitaria dei nostri studenti sotto ogni aspetto.
 Questa applicazione può essere un ulteriore possibilità di contatto e condivisione tra università 
 e studenti.
 
+Riferimenti:  
+*[BravoApp](http://www.bravoapp.it/)
+*[SuperProf.it](https://www.superprof.it/)
+*[TrovaRipetizioni.it](https://trovaripetizioni.it/)
+*[iTeach](https://play.google.com/store/apps/details?id=iteach.world.app&hl=it)
+
 > **ELICITATION STRATEGY OVERVIEW**
 
 //Overview aggiornato con quanto detto su telegram, io fare interviste al rettore per i motivi detti su telegram 
