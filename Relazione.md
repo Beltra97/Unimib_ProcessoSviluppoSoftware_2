@@ -178,4 +178,155 @@ sull'aspetto pratico dell'applicazione.
 Il questionario è stato creato in modo da ricercare e trovare possibili modifiche e/o aggiunte da fare 
 all'applicazione in base alle preferenze, caratteristiche e abitudini dei possibili utilizzatori finali.
 
+L'obiettivo del questionario è quello di classificare gli studenti in base a vari attributi, come la facoltà scelta, o se si tratta di uno studente
+oppure di un insegnante.
+Il questionario è diviso in 6 parti.
+La prima parte serve a fare una profilazione dello utente finale attraverso la raccolta delle informazioni universitarie del candidato.
+La seconda è mirata alla raccolta di informazioni riguardanti l'interesse dell'utente verso l'attività di fornire ripetizioni.
+Mentre la terza parte punta a raccogliere informazioni sull'interesse sul seguire le ripetizioni.
+Le due sezioni precedenti possono essere esclusive, infatti uno studente che fornisce ripetizioni non risponderebbe alle domande della terza parte e viceversa.
+Potrebbero esserci studenti che effettuano sia la seconda, sia la terza parte.
+La quarta parte cerca di scoprire se gli intervistati usano delle app simili e cosa hanno trovato di buono e quali sono i diffetti riscontrati.
+La quinta parte serve a valutare l'interesse degli studenti intervistati rispetto all'applicazione unimib tutoring assistant.
+Infine l'ultima parte serve per raccogliere spunti importanti per l'aggiunta di funzionalità all'applicazione.
+
+**Informazioni generiche**
+Domanda
+Quale facoltà frequenti? (Domanda aperta)
+Informazione utile per comporre un gruppo di studenti/insegnanti ben diversificato ed eterogeneo.
+
+Domanda
+Hai altri interessi in altre materie?
+Potrebbe risultare importante scoprire se uno studente ha anche altri interessi non strettamente legati alla facoltà che segue.
+
+Domanda
+Di che sesso sei? 
+Potrebbe risultare più facile per gli studenti andare a ripetizioni di altri studenti dello stesso sesso.
+
+Domanda
+Quali dispositivi possiedi? 
+Utile per scoprire se è meglio un applicazione oppure un sito o entrambi. Trattandosi di un contesto molto giovanile presupponiamo che 
+lo sviluppo di un'applicazione si adatti meglio a questo particolare dominio.
+
+Domanda
+Sei in corso con gli studi?
+Potrebbe interessare scoprire se c'è una correlazione tra le ripetizioni e gli anni fuori corso. Ad esempio uno studente che non supera un 
+determinato esame potrebbe ricorrere alle ripetizioni per ovviare al problema. Allo stesso modo uno studente fuori corso a cui mancano pochi esami, 
+potrebbe avere tempo per fornire ripetizioni agli studenti più giovani.
+
+Domanda
+Sei frequentante?
+Informazione utile per quanto riguarda il luogo dove effettuare le ripetizioni, uno studente frequentante vivrà molto di più l'università e quindi
+potrebbe svolgere le ripetizioni direttamente nell'ateneo.
+
+Domanda
+Hai mai partecipato/fornito ripetizioni?
+Utile per scoprire se conosce il dominio dell'applicazione. In base alla risposta l'intervistato verrà sottoposto alla sezione più adatta.
+
+
+**Per chi segue le ripetizioni**
+Domanda
+Quante volte al mese/settimana vai a ripetizioni? 
+Dato particolarmente utile per classificare in vari gradi gli studenti.
+
+Domanda 
+Quali sono i giorni in cui vai a ripetizioni?
+
+Domanda 
+Quali sono gli orari in cui vai a ripetizioni?
+In questo modo è possibile far combaciare le richieste dello studente con quelle dell'insegnante.
+
+Domanda 
+Tipicamente quante ore fai di ripetizione? (?)
+
+Domanda 
+Preferisci le ripetizioni singole o in gruppo?
+
+Domanda
+Cosa deve avere un giusto insegnante? Domanda aperta
+Questa domanda serve per chiedere ad uno studente cosa cerca in un insegnante, in modo che l'applicazione metta in contatto lo studente con l'insegnante
+più adatto a lui.
+
+Domanda
+Classifica questi attributi in base all'importanza per la scelta di un "insegnante"
+-Prezzo
+-Competenza
+-Vicinanza
+Anche questa domanda serve a decidere quale criterio seguire per matchare gli studenti con gli insegnanti.
+
+Domanda
+Quale metodo di pagamento utilizzi solitamente? 
+La risposta potrebbe fornire utili spunti in fase di sviluppo, ad esempio se gli studenti preferisco l'utilizzo di Paypal, bisognerà aggiungere all'applicazione
+il modulo per le transazione Paypal attraverso le API fornite.
+
+Domanda
+Come fai a trovare gli insegnanti per le ripetizioni?
+
+
+**Per chi fornisce le ripetizioni**
+Domanda 
+Quante volte al mese/settimana fornisci ripetizioni?
+Dato particolarmente utile per classificare in vari gradi gli studenti.
+
+Domanda 
+Quali sono i giorni in cui eroghi ripetizioni?
+
+Domanda 
+Quali sono gli orari in cui vai a ripetizioni?
+In questo modo è possibile far combaciare le richieste dello studente con quelle dell'insegnante.
+
+Domanda 
+Tipicamente quante ore fai di ripetizione? (?)
+
+Domanda 
+Preferisci le ripetizioni singole o in gruppo?
+
+Domanda
+Quale è il tuo target? (Eta/Materia/Paese)
+
+Domanda
+Cosa deve avere uno studente ideale? Domanda aperta (?)
+
+Domanda
+Quale metodo di pagamento utilizzi solitamente? 
+La risposta potrebbe fornire utili spunti in fase di sviluppo, ad esempio se gli studenti preferisco l'utilizzo di Paypal, bisognerà aggiungere all'applicazione
+il modulo per le transazione Paypal attraverso le API fornite.
+
+
+**Competitors**
+Domanda
+Come fanno gli studenti a trovarti?
+
+Domanda
+Hai mai utilizzato applicazioni/siti per trovare ripetizioni?
+
+Domanda
+Se sì, quali sono le migliori funzionalità trovate? (Domanda aperta)
+
+Domanda
+Se sì, quali sono le maggiori problematiche riscontrate? (Domanda aperta)
+
+
+**Interesse**
+Domanda 
+Se ci fosse un'applicazione che permetta di trovare un insegnante perfetto per te direttamente all'interno della tua università, la useresti?
+Con questa domanda si verifica l'interesse dell'intervistato nell'applicazione da realizzare.
+
+Domanda 
+Se ci fosse un'applicazione in grado di organizzare una lezione direttamente all'interno della tua università, fornendo aule adeguate, la useresti?
+Con questa domanda si verifica l'interesse dell'intervistato nell'applicazione da realizzare.
+
+Domanda 
+Se ci fosse un'applicazione che dià la possibilità di esprimere dei feedback rispetto agli insegnanti, la useresti?
+Con questa domanda si verifica l'interesse dell'intervistato alla funzionalità che permette di lasciare dei feedback.
+
+
+**Suggerimenti**
+Hai qualche suggerimento, qualche funzionalità, qualche richiesta che dovrebbe esserci per forza in unimib tutoring assistant? (Domanda aperta)
+Questa domanda consente di lasciare qualche spunto utile da aggiungere all'applicazione, ad esempio come deve essere il layout grafico oppure 
+funzionalità da aggiungere per rendere l'app migliore.
+
+
+
+
 
