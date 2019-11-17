@@ -64,10 +64,10 @@ Questa applicazione può essere un ulteriore possibilità di contatto e condivis
 e studenti.
 
 Riferimenti:  
-*[BravoApp](http://www.bravoapp.it/)
-*[SuperProf.it](https://www.superprof.it/)
-*[TrovaRipetizioni.it](https://trovaripetizioni.it/)
-*[iTeach](https://play.google.com/store/apps/details?id=iteach.world.app&hl=it)
+[BravoApp](http://www.bravoapp.it/)   
+[SuperProf.it](https://www.superprof.it/)  
+[TrovaRipetizioni.it](https://trovaripetizioni.it/)  
+[iTeach](https://play.google.com/store/apps/details?id=iteach.world.app&hl=it)  
 
 > **ELICITATION STRATEGY OVERVIEW**
 
