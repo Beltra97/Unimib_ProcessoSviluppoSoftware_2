@@ -100,7 +100,7 @@ Given this assuption, the chosen **Elicitation Strategy** for **UNIMIB Tutoring 
 
 Below, a visual representation of the **Elicitation Strategy**:
 
-![](assets/SE.png)
+![](assets/ES.png)
 
 In the next sections will be presented in-depth considerations about three activities of the elicitation plan: **Background Study**, **Questionnaire for students from the University of Milano-Bicocca** and **Interview with a sample of students who offer and receive private lessons (not necessarily from the University of Milano-Bicocca)**.
 
