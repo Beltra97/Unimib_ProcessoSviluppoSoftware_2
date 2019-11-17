@@ -63,6 +63,37 @@ universitaria dei nostri studenti sotto ogni aspetto.
 Questa applicazione può essere un ulteriore possibilità di contatto e condivisione tra università 
 e studenti.
 
+Il sito trovaripetizioni.it ha ricerca sia per nome della materia, sia per posizione geografica attraverso una mappa.
+Uno dei punti deboli di questo sito è l'impossibilità di cercare un insegnante attraverso nome e cognome. 
+Questa è una funzionalità molto utile in casi in cui si voglia cercare un determinato insegnante consigliato da amici. 
+Un altro punto a sfavore è l'impossibilità di contattare direttamente l'insegnante attraverso il sito, ma si deve utilizzare la mail.
+Nella nostra applicazione la comunicazione tra studente e insegnante avviene attraverso una chat interna, in cui è possibile scambiare messaggi, file ecc...
+Un punto di forza di questa piattaforma è la certificazione degli insegnanti per trattare con persone con problematiche come DSA e BES.
+
+L'applicazione BravoApp è un'app mobile disponibile sia su Android che su IOS.
+Al contrario del sito precedente, questa applicazione permette agli utenti di chattare direttamente nella stessa. Vi è anche una sezione calendario
+utile per tenere un programma dettagliato e aggiornato delle proprie attività. 
+Uno dei punti critici è sicuramente l'abbonamento mensile previsto per gli insegnanti. Questa caratteristica potrebbe essere un problema per insegnanti
+che effettuano poche ripetizioni mensilmente, in questo caso infatti tutto il guadagno andrebbe a colmare il costo dell'abbonamento.
+L'applicazione ha un interfaccia veramente basilare, la home page permette di selezionare la materia di interesse. Una volta selezionata la materia si 
+viene rimandati alla pagina di ricerca. Attualmente tutte le ricerche sono risultate vuote, indice di uno scarso utilizzo dell'app da parte degli insegnanti.
+
+SuperProf.it si tratta di una piattaforma con un grande bacino di utenti, quasi 7 milioni in tutto il mondo.
+All'interno del sito è possibile cercare tra molte categorie non solo legate allo studio, come ad esempio danza, arrampicata e molto altro.
+In questo caso una grande varietà di contenuti potrebbe rendere la ricerca un'attività complicata, mentre nella nostra applicazione ci 
+si specializzerebbe solo nelle facoltà presenti nell'ateneo. Rispetto al caso precedente l'abbonamento viene sottoscritto dallo studente, che mensilmente 
+versa una quota per poter accedere illimitatamente alla banca dati degli insegnanti. Così facendo si andrebbe a sfavorire gli utenti occasionali, che 
+preferirebbero pagare solo la lezione singola.
+L'interfaccia di questo sito è sicuramente la più appetibile tra tutte quelle analizzate, infatti risulta intuitiva e veloce.
+Purtroppo la ricerca risulta inaffidabile infatti cercando delle ripetizioni di informatica escono tra i primi risultati anche studenti di medicina e fisica.
+Per il nostro target, cioè studenti universitari, questo risulta inammissibile, infatti si prediligerebbe fornire tra i risultati solo insegnanti che hanno
+studiato quella determinata materia, andando così a selezionare il miglior insegnante per ogni esigenza.
+
+iTeach è un'applicazione mobile disponibile sia su Android che su IOS.
+L'applicazione è sviluppata in inglese e quindi si adatta poco al contesto italiano delle lezioni private. 
+Tra le funzionalità va menzionata la possibilità di accedere a dei corsi strutturati. Questo però non esce dal contesto della nostra applicazione, 
+che si focalizza principalmente sul concetto di ripetizione.
+
 Riferimenti:  
 [BravoApp](http://www.bravoapp.it/)   
 [SuperProf.it](https://www.superprof.it/)  
