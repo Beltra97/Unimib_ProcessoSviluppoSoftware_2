@@ -24,6 +24,7 @@ The _public competition_ did not come with an in-depth list of requirements for 
 
 Before presenting the overview, though, it is fundamental to introduce the different types of user that will be interacting with the system.
 **UNIMIB Tutoring Assistant** will be an application for handling private tutoring, so two key types of user need to be defined:
+
 1. Users who search for private lessons
 2. Users who offer private lessons
 
@@ -45,6 +46,7 @@ In the ideal scenario, the application will be presented to the higher-ups of th
 The first step of _Software Development_ is **Requirements Engineering**. **Requirements Engineering** is fundamental in order to fully understand and define what the _Software TO-BE_ should accomplish in a **context** full of determined _assumptions_ and _properties_. Its output is a **set of requirements** for the _Software TO-BE_.
 
 The focus of this document is defining and documenting the first two steps of **Requirements Engineering**:
+
 1. **Domain Understanding**: this phase is fundamental for **identifying the Stakeholders** and for studying _Application Domain_ and _Business Organization_.
 2. **Requirements Elicitation**: this phase regards researching and discovering the requirements of a system.
 
@@ -53,6 +55,7 @@ The focus of this document is defining and documenting the first two steps of **
 The core subject of **Domain Understanding** is to find a representative set of **Stakeholders** required in order to understand _from_ them and _with_ them what is required for the _Software TO-BE_ to accomplish.
 
 As it is known from literature, there are some relevant aspects to consider for **Stakeholders** selection; some of them are:
+
 1. Their position in the target organization.
 2. Their role in making decision about the _System TO-BE_.
 3. Their exposure to the perceived problem or required need.
@@ -77,17 +80,18 @@ This section provides an in-depth description of the elicitation activities plan
 As previously mentioned, **Requirements Elicitation** is the second step of **Requirements Engineering** and its objective is researching and discovering the requirements of a system, mostly (but not exclusively) by interacting with the identified _Stakeholders_ through different **Elicitation Techniques**.
 
 **Elicitation Techniques** can be classified into two classes:
+
 1. **Artefact-Driven Elicitation Techniques**: some of these techniques comprehend:
 	1. **Background Study**: it is used to gain knowledge about the software domain.
 	2. **Questionnaires**: they provide access to subjective information quickly, cheaply and, if needed, remotely. They are also helpful for preparing better focused _Interviews_.
 	3. **Prototypes and Mock-ups**: they allow concrete (but, of course, limited) exploration of the _Software TO-BE_.
-	4. And more...
+	4. And more.
 2. **Stakeholder-Driven Elicitation Techniques**: some of these techniques comprehend:
 	1. **Interviews**: they are the primary technique for knowledge elicitation. There are two types of interviews:
 		1. **Structured Interviews**: they are focused on a specific purpose and thus they must provide a predetermined set of questions.
 		2. **Unstructured Interviews**: they allow for free discussion and do not need a predetermined set of questions.
 	2. **Group Sessions**: they can be **Structured** and **Unstructured** and generally concede wider exploration of issues and ideas coming from the _Stakeholders_.
-	3. And more...
+	3. And more.
 
 A standard **Elicitation Strategy** usually starts with a complete analysis of the _Software AS-IS_, in order to find a set of weaknesses that need to be addressed by the software solution that is going to be developed; in this case, though, since **UNIMIB Tutoring Assistant** is a __to-be-developed__ _Mobile Application_, a good approach to start with **Requirements Elicitation** is to gain knowledge about the software domain through a **Background Study**.
 
