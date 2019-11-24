@@ -130,7 +130,7 @@ By comparison, **UNIMIB Tutoring Assistant** will focus on offering a fluid and 
 
 //TODO: gained requirements?
 
-| ID_REQUIREMENT | DESCRIPTION_REQUIREMENT |
+| ID_REQUIREMENT | REQUIREMENT_DESCRIPTION |
 |----------------|-------------------------|
 |                |                         |
 |                |                         |
@@ -330,6 +330,12 @@ This open answer question is useful in case some experienced users have addition
 
 //TODO: gained requirements?
 
+| ID_REQUIREMENT | REQUIREMENT_DESCRIPTION |
+|----------------|-------------------------|
+|                |                         |
+|                |                         |
+|                |                         |
+
 ## **PRESENTATION OF INTERVIEW**
 
 //TODO
@@ -339,3 +345,9 @@ This open answer question is useful in case some experienced users have addition
 //TODO
 
 //TODO: gained requirements?
+
+| ID_REQUIREMENT | REQUIREMENT_DESCRIPTION |
+|----------------|-------------------------|
+|                |                         |
+|                |                         |
+|                |                         |
