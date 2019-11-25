@@ -99,8 +99,8 @@ Given this assuption, the chosen **Elicitation Strategy** for **UNIMIB Tutoring 
 1. **Background Study**: to gain knowledge about the software domain, mostly through the analysis of systems in the same domain (the domain of private lessons). The main objective of this activity is to discover some features that will render **UNIMIB Tutoring Assistant** unique in its domain, and produce _requirements_ starting from them.
 2. **Questionnaire for students from the University of Milano-Bicocca**: the questionnaire aims to collect as much data as possible from the final users: the students.  The data collected will be used to produce particular _requirements_ based on the final users needs. Furthermore, it will help with the writing of the _interviews_.
 3. **Interview with the Head of IT of the University of Milano-Bicocca**: the interview with the _Head of IT_ should be the first one to be executed as it is needed to find potential criticalities of legal values, economic values, etc. and it can give insight on how to treat them. The interview should be **Unstructured** and its output would be a set of _feasible_ and _necessary_ requirements for what is the University concern.
-4. **Interview with a sample of students who offer and receive private lessons (not necessarily from the University of Milano-Bicocca)**: this interview will heavily use the output from the _questionnaire_ in order to gain information from the students sample. For this interview, the students are considered **experts of domain** and not **final users**. The interview will be **Structured**, as a set of questions will be presented to the interviewed. The expected output of this activity is a set or _requirements_ focused on the private lessons domain.
-5. **Interview with an UX/UI Expert**: the interview with the _UX/UI Expert_ should be the last one to be executed. The expertise of the _UX/UI Expert_ should help produce _requirements_ to improve the UX/UI of the _Mobile Application_ (the UX/UI is needed to be as performant as possible, as stated in the Application Overview). Since the objective of this interview is to obtain as many informations as possible from the interviewed expertise, the interview should be **Unstructured**.
+4. **Interview with a sample of students who offer and receive private lessons (not necessarily from the University of Milano-Bicocca)**: this interview will heavily use the output from the _questionnaire_ in order to gain information from the students sample. For this interview, the students are considered **experts of domain** and not **final users**. The interview will be **Structured**, as a set of questions will be presented to the interviewee. The expected output of this activity is a set or _requirements_ focused on the private lessons domain.
+5. **Interview with an UX/UI Expert**: the interview with the _UX/UI Expert_ should be the last one to be executed. The expertise of the _UX/UI Expert_ should help produce _requirements_ to improve the UX/UI of the _Mobile Application_ (the UX/UI is needed to be as performant as possible, as stated in the Application Overview). Since the objective of this interview is to obtain as many informations as possible from the interviewee expertise, the interview should be **Unstructured**.
 
 Below, a visual representation of the **Elicitation Strategy**:
 
@@ -129,6 +129,8 @@ By comparison, **UNIMIB Tutoring Assistant** will consist of users within a stri
 By comparison, **UNIMIB Tutoring Assistant** will focus on offering a fluid and fast UX/UI, built with modern technologies and know-how.
 
 //TODO: gained requirements?
+
+#### DERIVED REQUIREMENTS
 
 | ID_REQUIREMENT | REQUIREMENT_DESCRIPTION |
 |----------------|-------------------------|
@@ -335,9 +337,202 @@ This open answer question is useful in case some experienced users have addition
 
 ## **RESULT OF THE QUESTIONNAIRE**
 
+The above-presented questionnaire was filled by 41 students from the 2019/2020 Software Development Process course delivered at the University of Milano - Bicocca.
+
+The raw data gained from the submission of the questionnaire will be presented below; shortly after, a brief analysis of the data will be presented. Lastly, there are two outputs from this activity:
+
+1. A set of requirements that will be presented in the end of this section;
+2. A few considerations and open points that will help formulating the questions of the **Interview with a sample of students**.
+
+### RAW DATA
+
+#### **GENERIC QUESTIONS SECTION**
+
+The exported .csv from Google Forms can be found at `questionnaire/answers/251119_2154/UNIMIB Tutoring Assistant_ Questionario Informativo.csv`. Values reported below are rounded-up.
+
+- [ ] QUESTION 1: **SEX**
+
+> What is your sex?
+
+- Male **[70.7%]**
+- Female **[29.3%]**
+- Rather not specify **[0%]**
+
+- [ ] QUESTION 2: **NECESSITY OF SUPPORTING WEBAPP**
+
+> Would you prefer using a Website in order to publish/search for private lessons offers or you feel comfortable enough with using a Mobile App?
+
+- A Mobile App is enough **[73.2%]**
+- A Website is fundamental **[26.8%]**
+
+- [ ] QUESTION 3: **INTERACTING WITH INDIVIDUALS OF DIFFERENT AGE**
+
+> Would you have problems interacting with older/younger individuals?
+
+- I would have problems interacting with younger individuals **[95.1%]**
+- I would have problems interacting with older individuals **[2.4%]**
+- I would have problems interacting with both younger and older individuals **[2.4%]**
+- I would not have problems interacting with older/younger individuals **[0%]**
+
+- [ ] QUESTION 4: **ONLINE PAYMENT**
+
+> Would you prefer an online payment system (using the most famous online payment providers, such as PayPal) or a offline payment?
+
+- Online payment **[26.8%]**
+- Offline payment **[31.7%]**
+- Indifferent **[41.5%]**
+
+- [ ] QUESTION 5: **PERSONAL DATA**
+
+> Would you feel safer if the users would be required to use their personal data?
+
+- Yes **[95.1%]**
+- No **[4.9%]**
+
+- [ ] QUESTION 6: **LIKELINESS OF WORKING WITH AN OPPOSITE SEX INDIVIDUAL**
+
+> Concerning private lessoning, how much are you comfortable with working with (foreign) individuals of the opposite sex?
+
+- I am very comfortable with working with opposite sex individuals **[97.6%]**
+- I'd rather worth with same sex individuals **[2.4%]**
+- I would never have a private lesson with opposite sex individuals **[0%]**
+
+- [ ] QUESTION 7: **ADEQUATE AREAS FOR PRIVATE LESSONS**
+
+> Sort these areas based on how much you find them appropriate for private lessons. **[Notation for answers is column_value: _row_value_]**
+
+- Own house **[1: _11_, 2: _8_, 3: _11_, 4: _4_, 5: _7_]**
+- House of the other individual **[1: _7_, 2: _14_, 3: _9_, 4: _8_, 5: _3_]**
+- Private room in the University **[1: _4_, 2: _6_, 3: _14_, 4: _7_, 5: _10_]**
+- Open space in the University **[1: _9_, 2: _10_, 3: _14_, 4: _5_, 5: _3_]**
+- Public place (for instance a bar, a library, etc.) **[1: _13_, 2: _14_, 3: _10_, 4: _4_, 5: _0_]**
+
+- [ ] QUESTION 8: **ONLINE PRIVATE LESSONS**
+
+> Would you have sessions of private lessons online?
+
+- Yes **[41.5%]**
+- I prefer face-to-face lessons **[58.5%]**
+
+- [ ] QUESTION 9: **UNIMIB Infrastructures**
+
+> Do you think the _University of Milano-Bicocca_ offers adequate structures for private lessoning?
+
+- Yes **[58.5%]**
+- No **[41.5%]**
+
+- [ ] QUESTION 10: **CALENDAR NOTIFICATIONS**
+
+> Would you like the possibility to create a calendar event in order to get a notification prior to a scheduled private lesson?
+
+- Yes **[95.1%]**
+- No **[4.9%]**
+
+- [ ] QUESTION 11: **TEACHER OR STUDENT**
+
+> Have you ever given private lessons to some student in need?
+
+- Yes **[75.6%]**
+- No **[24.4%]**
+
+#### **TEACHERS QUESTIONS SECTION**
+
+- [ ] QUESTION 1: **GROUP LESSONS**
+
+> What do you think about group lessons?
+
+- i prefer group lessons over individual lessons **[6.5%]**
+- I prefer individual lessons **[58.1%]**
+- I do not have a preference **[35.5%]**
+
+- [ ] QUESTION 2: **PAYMENT TIMING**
+
+> Would you prefer being paid before or during the meeting?
+
+- Before the meeting **[12.9%]**
+- During the meeting **[32.3%]**
+- Indifferent **[54.8%]**
+
+- [ ] QUESTION 3: **SOCIAL NETWORKS**
+
+> Would you appreciate the possibility to share your private lessons offers via Social Networks?
+
+- Yes **[48.4%]**
+- No **[16.1%]**
+- Indifferent **[35.5%]**
+
+#### **STUDENTS QUESTIONS SECTION**
+
+- [ ] QUESTION 1: **PRIVATE LESSONS FOR RECREATION**
+
+> Do you search for private lessons mostly for need or recreation?
+
+- Need **[80%]**
+- Recreation **[20%]**
+
+- [ ] QUESTION 2: **GROUP LESSONS**
+
+> What do you think about group lessons?
+
+- i prefer group lessons over individual lessons **[0%]**
+- I prefer individual lessons **[90%]**
+- I do not have a preference **[10%]**
+
+- [ ] QUESTION 3: **PARAMETERS FOR SEARCHING A TEACHER**
+
+> Sort these parameters based on their importance in your choice of a teacher. **[Notation for answers is column_value: _row_value_]**
+
+- Teacher's presentation **[1: _0_, 2: _1_, 3: _3_, 4: _5_, 5: _1_]**
+- Requested price **[1: _1_, 2: _2_, 3: _1_, 4: _3_, 5: _3_]**
+- Distance to meeting place **[1: _0_, 2: _3_, 3: _2_, 4: _2_, 5: _3_]**
+- Feedback of other users **[1: _0_, 2: _3_, 3: _2_, 4: _2_, 5: _3_]**
+- Other social parameters (such as age, sex, etc.) **[1: _4_, 2: _1_, 3: _4_, 4: _0_, 5: _1_]**
+
+#### **FEEDBACK SECTION**
+
+- [ ] QUESTION 1: **FEEDBACK**
+
+> Is there anything else you would like to suggest us? **[3 answers were provided. For details, please check the exported .csv]**
+
+### DATA ANALYSIS
+
+Following, a brief analysis of the data aquired. The purpose of this analysis is merely to identify functionalities that could be formalized into _requirements_ and functionalities that could be postponed or discarded.
+
+First of all, the data aquired regarding personal informations about users showed pretty clear results. In particular:
+
+1. **95.1%** of interviewees do not have problems interacting with older/younger individuals
+2. **97.6%** of interviewees do not have problems interacting with individuals of the opposite sex
+3. **95.1%** of interviewees would feel safer if users were required to use their personal data
+
+With this data, we can assume the sample did not discriminate any user based on personal informations (age, gender, etc.), provided that the user is clearly identified with common-use social technologies. Regarding the conjecture "_are female students less likely to work with male students?_", introduced previously in this document, a consideration is needed: although the fetched data is overwhelmingly in disagree with it, it is important to note that the sample consists of a particular subset of female professionals who are most accustomed to work with men.
+
+Considering the just presented analysis and the data collected in _Question 3_ of **STUDENTS QUESTIONS SECTION**, a few informations about the _Search Functionality_ can be made. First of all, there will not be any need for filtering by personal data, at most by Teacher's name, since the _Feedback Filter_ was one of the most appreciated filter parameters together with _Price Filter_ and _Distance Filter_.
+
+For other technological-side questions, a few considerations can be made:
+
+1. A Mobile App without the support of a Website is enough for **73.2%** of interviewees.
+2. **26.8%** of interviewees would straightly prefer online payment over offline payment, and only **12.9%** of them would prefer to be paid before the lesson. These two statistical informations render the PayPal integration a **non-priority**.
+3. **48.4%** of interviewees would appreciate Social Networks integration, and **35.5%** of them would be indifferent about it. It could be interesting to use this topic of conversation in the **Interview with a sample of students**.
+4. The majority of interviewees (**58.5%**) would prefer face-to-face lessons over online lessons; for this reason, the integration of VoIP systems could be postponed or discarded.
+5. The vast majority of interviewees, namely the **95.1%** of them, would like a Calendar integration. Without a doubt, this functionality will be formalized into a _requirement_.
+
+Other useful data acquired with the help of this questionnaire regards:
+
+1. _Group lessons_: they are preferred by the minority of teachers (**6.5%**) and by no student (**0%**); teachers and students are indifferent about it respectively by the **35.5%** and **10%**.
+2. _UNIMIB private rooms_: while the majority of users ranked highly the _Private room in the University_ (see _Question 7_ for reference), only the **58.5%** of users answered that the _University of Milano-Bicocca_ offers adequate structures for private lessoning.
+
 //TODO
 
-//TODO: gained requirements?
+/*
+
+aula privata in università è quella che va per la maggiore
+bicocca non offre aulee adeguate 42%
+
+*/
+
+### DERIVED REQUIREMENTS
+
+//TODO: calendar, real data, feedback, map integration, social?. feedback can go in background study since it is unique in this app
 
 | ID_REQUIREMENT | REQUIREMENT_DESCRIPTION |
 |----------------|-------------------------|
@@ -348,12 +543,16 @@ This open answer question is useful in case some experienced users have addition
 ## **PRESENTATION OF INTERVIEW**
 
 //TODO
+//TODO: why do you prefer university but not Bicocca?!
+//TODO: what about social networks?
 
 ## **RESULT OF THE INTERVIEW**
 
 //TODO
 
 //TODO: gained requirements?
+
+#### DERIVED REQUIREMENTS
 
 | ID_REQUIREMENT | REQUIREMENT_DESCRIPTION |
 |----------------|-------------------------|

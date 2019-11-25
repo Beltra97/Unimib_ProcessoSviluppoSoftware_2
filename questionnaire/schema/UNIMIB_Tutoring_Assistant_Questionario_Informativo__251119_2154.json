@@ -1,0 +1,251 @@
+{
+    "title": "UNIMIB Tutoring Assistant: Questionario Informativo",
+    "sections": [
+        {
+            "title": "UNIMIB Tutoring Assistant: Questionario Informativo - Domande Generiche",
+            "description": "Il presente questionario ha come obiettivo la raccolta di dati statistici riguardo il mondo delle ripetizioni, per favorire lo sviluppo di un sistema per facilitare l'organizzazione di ripetizioni agli studenti dell'Università degli Studi di Milano-Bicocca. Il questionario è diviso in 2 parti: la prima parte contiene domande generiche sull'intervistato e il suo rapporto col mondo delle ripetizioni, mentre la seconda parte entra più nello specifico. Si ringraziano tutti i partecipanti in quanto ogni risposta aiuterà notevolmente lo sviluppo.",
+            "questions": [
+                {
+                    "question": "1. Sesso:",
+                    "answers": {
+                        "type": "Multiple choice",
+                        "rows": [
+                            "Maschio",
+                            "Femmina",
+                            "Preferisco non specificarlo"
+                        ],
+                        "columns": []
+                    }
+                },
+                {
+                    "question": "2. Preferiresti utilizzare un sito Web per la ricerca/pubblicazione di annunci di ripetizioni online o useresti senza problemi una Mobile App?",
+                    "answers": {
+                        "type": "Multiple choice",
+                        "rows": [
+                            "L'App Mobile è sufficiente",
+                            "Un portale Web è essenziale"
+                        ],
+                        "columns": []
+                    }
+                },
+                {
+                    "question": "3. Avresti problemi a interagire con persone più piccole/grandi di te?",
+                    "answers": {
+                        "type": "Multiple choice",
+                        "rows": [
+                            "Avrei problemi a interagire con persone più piccole",
+                            "Avrei problemi a interagire con persone più grandi",
+                            "Avrei problemi a interagire sia con persone più grandi che più piccole",
+                            "Non avrei alcun problema a interagire con persone più piccole/grandi di me"
+                        ],
+                        "columns": []
+                    }
+                },
+                {
+                    "question": "4. Preferiresti una gestione dei pagamenti online (tramite i più famosi sistemi di pagamento, come ad esempio PayPal) oppure preferiresti un pagamento fisico?",
+                    "answers": {
+                        "type": "Multiple choice",
+                        "rows": [
+                            "Pagamento online",
+                            "Pagamento fisico",
+                            "Indifferente"
+                        ],
+                        "columns": []
+                    }
+                },
+                {
+                    "question": "5. Ti sentiresti più al sicuro se gli utenti fossero forzati a utilizzare i dati reali?",
+                    "answers": {
+                        "type": "Multiple choice",
+                        "rows": [
+                            "Sì",
+                            "No"
+                        ],
+                        "columns": []
+                    }
+                },
+                {
+                    "question": "6. Quanto sei a tuo agio nell'interagire con persone (sconosciute) dell'altro sesso nell'ambito delle ripetizioni?",
+                    "answers": {
+                        "type": "Multiple choice",
+                        "rows": [
+                            "Non avrei alcun problema nell'interagire con persone dell'altro sesso",
+                            "Preferirei interagire con persone del mio stesso sesso",
+                            "Non farei mai ripetizioni insieme a una persona dell'altro sesso"
+                        ],
+                        "columns": []
+                    }
+                },
+                {
+                    "question": "7. Ordina questi luoghi in base a quanto li troveresti comodi/adeguati per una sessione di ripetizioni.",
+                    "answers": {
+                        "type": "Multiple choice grid",
+                        "rows": [
+                            "Casa propria",
+                            "Casa dell'altro interlocutore",
+                            "Aula privata in Università",
+                            "Open space in Università",
+                            "Luogo pubblico (ad esempio bar, librerie)"
+                        ],
+                        "columns": [
+                            "1: Peggiore",
+                            "2",
+                            "3",
+                            "4",
+                            "5: Migliore"
+                        ]
+                    }
+                },
+                {
+                    "question": "8. Saresti disponibile a sessioni di ripetizione online?",
+                    "answers": {
+                        "type": "Multiple choice",
+                        "rows": [
+                            "Sì",
+                            "Preferisco ripetizioni in presenza"
+                        ],
+                        "columns": []
+                    }
+                },
+                {
+                    "question": "9. Pensi che l'Università degli Studi di Milano-Bicocca offra infrastrutture adeguate alle ripetizioni?",
+                    "answers": {
+                        "type": "Multiple choice",
+                        "rows": [
+                            "Sì",
+                            "No"
+                        ],
+                        "columns": []
+                    }
+                },
+                {
+                    "question": "10. Ti piacerebbe avere la possibilità di aggiungere un evento al calendario così da ricevere una notifica prima di ogni sessione di ripetizioni?",
+                    "answers": {
+                        "type": "Multiple choice",
+                        "rows": [
+                            "Sì",
+                            "No"
+                        ],
+                        "columns": []
+                    }
+                },
+                {
+                    "question": "11. Hai mai dato ripetizioni a qualche studente che ne avesse bisogno?",
+                    "answers": {
+                        "type": "Multiple choice",
+                        "rows": [
+                            "Sì",
+                            "No"
+                        ],
+                        "columns": []
+                    }
+                }
+            ]
+        },
+        {
+            "title": "UNIMIB Tutoring Assistant: Questionario Informativo - Domande per Insegnanti",
+            "description": "",
+            "questions": [
+                {
+                    "question": "1. Qual è la tua posizione nei confronti delle lezioni di gruppo?",
+                    "answers": {
+                        "type": "Multiple choice",
+                        "rows": [
+                            "Le preferisco alle lezioni individuali",
+                            "Preferisco le lezioni individuali",
+                            "Non ho preferenze tra lezioni di gruppo e individuali"
+                        ],
+                        "columns": []
+                    }
+                },
+                {
+                    "question": "2. Preferisci essere pagato in anticipo o in loco?",
+                    "answers": {
+                        "type": "Multiple choice",
+                        "rows": [
+                            "In anticipo",
+                            "In loco",
+                            "Indifferente"
+                        ],
+                        "columns": []
+                    }
+                },
+                {
+                    "question": "3. Apprezzeresti una funzionalità di condivisione delle tue offerte di ripetizione sui vari Social Network?",
+                    "answers": {
+                        "type": "Multiple choice",
+                        "rows": [
+                            "Sì",
+                            "No",
+                            "Indifferente"
+                        ],
+                        "columns": []
+                    }
+                }
+            ]
+        },
+        {
+            "title": "UNIMIB Tutoring Assistant: Questionario Informativo - Domande specifiche",
+            "description": "",
+            "questions": [
+                {
+                    "question": "1. Cerchi lezioni principalmente per necessità o per svago?",
+                    "answers": {
+                        "type": "Multiple choice",
+                        "rows": [
+                            "Necessità",
+                            "Svago"
+                        ],
+                        "columns": []
+                    }
+                },
+                {
+                    "question": "2. Qual è la tua posizione nei confronti delle lezioni di gruppo?",
+                    "answers": {
+                        "type": "Multiple choice",
+                        "rows": [
+                            "Le preferisco alle lezioni individuali",
+                            "Preferisco le lezioni individuali",
+                            "Non ho preferenze tra lezioni di gruppo e individuali"
+                        ],
+                        "columns": []
+                    }
+                },
+                {
+                    "question": "3. Ordina questi parametri in base alla loro importanza nella tua scelta di un docente.",
+                    "answers": {
+                        "type": "Multiple choice grid",
+                        "rows": [
+                            "Presentazione del docente",
+                            "Prezzo richiesto",
+                            "Distanza richiesta per il luogo dell'incontro",
+                            "Feedback di altri utenti",
+                            "Altri parametri sociali (ad esempio età, sesso, ecc.)"
+                        ],
+                        "columns": [
+                            "1: Peggiore",
+                            "2",
+                            "3",
+                            "4",
+                            "5: Migliore"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "title": "UNIMIB Tutoring Assistant: Questionario Informativo - Feedback",
+            "description": "",
+            "questions": [
+                {
+                    "question": "1. C'è qualcos'altro che vorresti suggerirci?",
+                    "answers": {
+                        "type": "Paragraph",
+                        "rows": [],
+                        "columns": []
+                    }
+                }
+            ]
+        }
+    ]
+}
