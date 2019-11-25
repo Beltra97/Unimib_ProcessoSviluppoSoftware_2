@@ -239,7 +239,16 @@ Based on the answers, it could be wise considering the integration with the most
 
 This question provides additional data to consider for the **Interview with the Head of IT of the University of Milano-Bicocca**, as he could arrange with the **Project Owner** a meeting with University representative in order to officially ask the University to provide open spaces for private lessons.
 
-- [ ] QUESTION 10: **TEACHER OR STUDENT**
+- [ ] QUESTION 10: **CALENDAR NOTIFICATIONS**
+
+> Would you like the possibility to create a calendar event in order to get a notification prior to a scheduled private lesson?
+
+- Yes
+- No
+
+This question aims to understand if the user is willing to allow the application to schedule calendars and notifications to help them remember an upcoming private lesson.
+
+- [ ] QUESTION 11: **TEACHER OR STUDENT**
 
 > Have you ever given private lessons to some student in need?
 
@@ -322,7 +331,7 @@ The answers of this question (structured as a _Multiple choice grid_) will be us
 This open answer question is useful in case some experienced users have additional feedback to provide.
 
 ### **Questionnaire URL**
-[UNIMIB Tutoring Assistant: Questionario Informativo](https://forms.gle/E9eMBQ6qfXUKkio26)
+[UNIMIB Tutoring Assistant: Questionario Informativo](https://forms.gle/DeX7SmHWr9fNe9qL8)
 
 ## **RESULT OF THE QUESTIONNAIRE**
 
