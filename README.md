@@ -500,9 +500,9 @@ Following, a brief analysis of the data aquired. The purpose of this analysis is
 
 First of all, the data aquired regarding personal informations about users showed pretty clear results. In particular:
 
-1. **95.1%** of interviewees do not have problems interacting with older/younger individuals
-2. **97.6%** of interviewees do not have problems interacting with individuals of the opposite sex
-3. **95.1%** of interviewees would feel safer if users were required to use their personal data
+1. **95.1%** of interviewees do not have problems interacting with older/younger individuals.
+2. **97.6%** of interviewees do not have problems interacting with individuals of the opposite sex.
+3. **95.1%** of interviewees would feel safer if users were required to use their personal data.
 
 With this data, we can assume the sample did not discriminate any user based on personal informations (age, gender, etc.), provided that the user is clearly identified with common-use social technologies. Regarding the conjecture "_are female students less likely to work with male students?_", introduced previously in this document, a consideration is needed: although the fetched data is overwhelmingly in disagree with it, it is important to note that the sample consists of a particular subset of female professionals who are most accustomed to work with men.
 
@@ -520,15 +520,6 @@ Other useful data acquired with the help of this questionnaire regards:
 
 1. _Group lessons_: they are preferred by the minority of teachers (**6.5%**) and by no student (**0%**); teachers and students are indifferent about it respectively by the **35.5%** and **10%**.
 2. _UNIMIB private rooms_: while the majority of users ranked highly the _Private room in the University_ (see _Question 7_ for reference), only the **58.5%** of users answered that the _University of Milano-Bicocca_ offers adequate structures for private lessoning.
-
-//TODO
-
-/*
-
-aula privata in università è quella che va per la maggiore
-bicocca non offre aulee adeguate 42%
-
-*/
 
 ### DERIVED REQUIREMENTS
 
