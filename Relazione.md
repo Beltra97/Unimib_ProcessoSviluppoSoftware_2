@@ -225,6 +225,9 @@ La quinta parte serve a valutare l'interesse degli studenti intervistati rispett
 Infine l'ultima parte serve per raccogliere spunti importanti per l'aggiunta di funzionalità all'applicazione.
 
 **Informazioni generiche**  
+Nome e Cognome?? 
+Se sono interviste a utenti finali vogliamo avere un minimo di confidenza con chi parliamo
+
 Domanda  
 Quale facoltà frequenti? (Domanda aperta)  
 Informazione utile per comporre un gruppo di studenti/insegnanti ben diversificato ed eterogeneo.
@@ -295,7 +298,7 @@ La risposta potrebbe fornire utili spunti in fase di sviluppo, ad esempio se gli
 il modulo per le transazione Paypal attraverso le API fornite.
 
 Domanda  
-Come fai a trovare gli insegnanti per le ripetizioni?
+Come fai a trovare gli insegnanti per le ripetizioni? (Modificherei con una domanda del tipo: "Utilizzi già app per le ripetizioni")
 
 
 **Per chi fornisce le ripetizioni**  
