@@ -100,7 +100,7 @@ Given this assuption, the chosen **Elicitation Strategy** for **UNIMIB Tutoring 
 2. **Questionnaire for students from the University of Milano-Bicocca**: the questionnaire aims to collect as much data as possible from the final users: the students.  The data collected will be used to produce particular _requirements_ based on the final users needs. Furthermore, it will help with the writing of the _interviews_.
 3. **Interview with the Head of IT of the University of Milano-Bicocca**: the interview with the _Head of IT_ should be the first one to be executed as it is needed to find potential criticalities of legal values, economic values, etc. and it can give insight on how to treat them. The interview should be **Unstructured** and its output would be a set of _feasible_ and _necessary_ requirements for what is the University concern.
 4. **Interview with a sample of students who offer and receive private lessons (not necessarily from the University of Milano-Bicocca)**: this interview will use the output from the _questionnaire_ in order to gain information from the students sample. For this interview, the students are considered **experts of domain** and not **final users**. The interview will be **Structured**, as a set of questions will be presented to the interviewee. The expected output of this activity is a set of _requirements_ focused on the private lessons domain.
-5. **Interview with an UX/UI Expert**: the interview with the _UX/UI Expert_ should be the last one to be executed. The expertise of the _UX/UI Expert_ should help produce _requirements_ to improve the UX/UI of the _Mobile Application_ (the UX/UI is needed to be as performant as possible, as stated in the Application Overview). Since the objective of this interview is to obtain as many informations as possible from the interviewee expertise, the interview should be **Unstructured**.
+5. **Interview with an UX/UI Expert**: the interview with the _UX/UI Expert_ should be the last one to be executed. The expertise of the _UX/UI Expert_ should help produce _requirements_ to improve the UX/UI of the _Mobile Application_ (the UX/UI is needed to be as performant as possible, as stated in the Application Overview). Since the objective of this interview is to obtain as many information as possible from the interviewee expertise, the interview should be **Unstructured**.
 
 Below, a visual representation of the **Elicitation Strategy**:
 
@@ -499,20 +499,20 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 
 Following, a brief analysis of the data aquired. The purpose of this analysis is merely to identify functionalities that could be formalized into _requirements_ and functionalities that could be postponed or discarded.
 
-First of all, the data aquired regarding personal informations about users showed pretty clear results. In particular:
+First of all, the data aquired regarding personal information about users showed pretty clear results. In particular:
 
 1. **95.1%** of interviewees do not have problems interacting with older/younger individuals.
 2. **97.6%** of interviewees do not have problems interacting with individuals of the opposite sex.
 3. **95.1%** of interviewees would feel safer if users were required to use their personal data.
 
-With this data, we can assume the sample did not discriminate any user based on personal informations (age, gender, etc.), provided that the user is clearly identified with common-use social technologies. Regarding the conjecture "_are female students less likely to work with male students?_", introduced previously in this document, a consideration is needed: although the fetched data is overwhelmingly in disagree with it, it is important to note that the sample consists of a particular subset of female professionals who are most accustomed to work with men.
+With this data, we can assume the sample did not discriminate any user based on personal information (age, gender, etc.), provided that the user is clearly identified with common-use social technologies. Regarding the conjecture "_are female students less likely to work with male students?_", introduced previously in this document, a consideration is needed: although the fetched data is overwhelmingly in disagree with it, it is important to note that the sample consists of a particular subset of female professionals who are most accustomed to work with men.
 
-Considering the just presented analysis and the data collected in _Question 3_ of **STUDENTS QUESTIONS SECTION**, a few informations about the _Search Functionality_ can be made. First of all, there will not be any need for filtering by personal data, at most by Teacher's name, since the _Feedback Filter_ was one of the most appreciated filter parameters together with _Price Filter_ and _Distance Filter_.
+Considering the just presented analysis and the data collected in _Question 3_ of **STUDENTS QUESTIONS SECTION**, a few information about the _Search Functionality_ can be made. First of all, there will not be any need for filtering by personal data, at most by Teacher's name, since the _Feedback Filter_ was one of the most appreciated filter parameters together with _Price Filter_ and _Distance Filter_.
 
 For other technological-side questions, a few considerations can be made:
 
 1. A Mobile App without the support of a Website is enough for **73.2%** of interviewees.
-2. **26.8%** of interviewees would straightly prefer online payment over offline payment, and only **12.9%** of them would prefer to be paid before the lesson. These two statistical informations render the PayPal integration a **non-priority**.
+2. **26.8%** of interviewees would straightly prefer online payment over offline payment, and only **12.9%** of them would prefer to be paid before the lesson. These two statistical information render the PayPal integration a **non-priority**.
 3. **48.4%** of interviewees would appreciate Social Networks integration, and **35.5%** of them would be indifferent about it. It could be interesting to use this topic of conversation in the **Interview with a sample of students**.
 4. The majority of interviewees (**58.5%**) would prefer face-to-face lessons over online lessons; for this reason, the integration of VoIP systems could be postponed or discarded.
 5. The vast majority of interviewees, namely the **95.1%** of them, would like a Calendar integration. Without a doubt, this functionality will be formalized into a _requirement_.
@@ -528,9 +528,9 @@ With the knowledge gained through the analysis of the data obtained with the hel
 
 | ID_REQUIREMENT | REQUIREMENT_DESCRIPTION                     |
 |----------------|---------------------------------------------|
-| 5              | Integration with a geolocalization provider |
-| 6              | Usage of real personal data                 |
-| 7              | Integration with OS Calendar                |
+| 4              | Integration with a geolocalization provider |
+| 5              | Usage of real personal data                 |
+| 6              | Integration with OS Calendar                |
 
 ## **PRESENTATION OF INTERVIEW WITH A SAMPLE OF STUDENTS**
 
@@ -538,23 +538,83 @@ With the knowledge gained through the analysis of the data obtained with the hel
 //TODO: why do you prefer university but not Bicocca?!
 //TODO: what about social networks?
 
-The interview is a Stakeholder-Driven elicitation technique that will be used to gain data from the _Stakeholders_.
-with a sample of students who offer and receive private lessons (not necessarily from the University of Milano-Bicocca)
-As previously mentioned, this data will be used to generate _requirements_ based on the final users needs, other than helping with the writing of the _interviews_.
+The interview is a Stakeholder-Driven elicitation technique that will be used to gain data from the _Stakeholders_. It is fundamental to note that, for this interview, the students are considered **experts of domain** and not **final users**: the focus is acquiring knowledge about private lessoning in general and relate them with final users needs.
 
-this interview will use the output from the _questionnaire_ in order to gain information from the students sample.
-For this interview, the students are considered **experts of domain** and not **final users**.
-The interview will be **Structured**, as a set of questions will be presented to the interviewee.
-The expected output of this activity is a set of _requirements_ focused on the private lessons domain.
+Since producing, organizing and executing an interview is rather time consuming and expensive, it is important to plan it efficiently and according to the guidelines offered in literature. The interview will be **Structured**: the interviewee will be asked a set of questions prepared with meticulous attention to the data gained through the previous steps (and, in particular, through the questionnaire). As for the questionnaire, and even more so, it is fundamental to make the interviewee feel comfortable: for instance, using an appreciate linguistic register can drastically improve the the success of the interview (for this reason, even though it will be presented in English in this section, the interview will be carried out in Italian and according to the interviewee level of speech). Regarding the number of questions, it is adjusted so that the interviewee does not lose focus due to tiredness. This interview is considered to be possible to be carried out online other than face-to-face.
+
+Before the interview start, a quick Application Overview should be presented. Therefore, the interview would start with a simple (group of) question set up only to make the interviewee comfortable and to put them in a friendly context; after this phase, the real questions could be finally asked.
+
+The objective of this activity is to generate a set of _requirements_ in regards to the private lessons domain, and, if needed, discard previously considered ideas.
+
+The interview will be presented in detail below; considerations derived from user responses will be presented in the next section.
+
+- [ ] QUESTION 1: **INTRODUCTION**
+
+> Would you like to introduce yourself? What is your field of interest? How long have you been private tutoring?
+
+This question, as anticipated, is useful to lightheartedly get to know the interviewee and make them feel comfortable and in a friendly context.
+
+- [ ] QUESTION 2: **REQUIRED FEATURES**
+
+> What do you think is **required** for a private lessoning _Mobile App_?
+
+The first real question is a direct question towards the core of the discussion: what, in your opinion, is **required** (emphasis on _required_) for a _Mobile App_ in this domain? The objective is to let the interviewee brainstorm as much as possible with fresh mind, in order to let all of their ideas come out.
+
+- [ ] QUESTION 3: **FEEDBACK**
+
+> What is your opinion on giving feedback to users both as teachers and students?
+
+This question aims to consolidate the possible requirement for a complete feedback system. It also could give precious insight on how this feature should work.
+
+- [ ] QUESTION 4: **SEARCH METHOD**
+
+> Which are, in your opinion, the best search criteria for finding a teacher?
+
+With this question the objective is to understand which criteria/filter could be appreciated in order to help the user find a teacher.
+
+- [ ] QUESTION 5: **SORT METHOD**
+
+> Which are, in your opinion, the best sorting criteria for finding a teacher (for instance: price, distance, feedback, etc.)?
+
+This question has the objective to understand the perspective of a domain expert (but also final user) in the matter of sorting of the search results.
+
+- [ ] QUESTION 6: **SOCIAL NETWORK INTEGRATION**
+
+> Which Social Network functionalities would you want to be integrated in the _Mobile App_?
+
+From the questionnaire it was shown that users would like the possibility to identify a user though Social Networks, and that teachers would appreciate the possibility to share their offers. This question purpose is to identify other appreciated functionalities.
+
+- [ ] QUESTION 7: **PROFILE SECTION**
+
+> Which information would you want to see in the Profile Section?
+
+With this question the objective is know which particular information is considered **required** in a private lessoning environment.
+
+- [ ] QUESTION 8: **BIO**
+
+> What would you think of a "Bio" section, where a user can present themselves? What optional information would you want to know about other users?
+
+This question was chosen because of the high value given by the questionnaire interviewees to the "presentation" of the teacher.
+
+- [ ] QUESTION 9: **CALENDAR METHOD**
+
+> When a private lesson is scheduled, would you want it to be synchronized with your OS Calendar or would you want to keep it within the _Mobile App_?
+
+This question has the objective to understand whether the user would prefer the _Mobile App_ to interact with the OS or whether they would prefer to keep notifications inside the app.
+
+- [ ] QUESTION 10: **OTHER FEEDBACK**
+
+> Would you like to tell us something more other than what we already discussed?
+
+The last question of an interview should always be the "other feedback" question, in order to let the "interviewee" express their thoughts after a deep analysis of the domain.
 
 ## **RESULT OF THE INTERVIEW WITH A SAMPLE OF STUDENTS**
 
-//TODO
+//TODO: with a sample of students who offer and receive private lessons (not necessarily from the University of Milano-Bicocca)
 
 #### DERIVED REQUIREMENTS
 
-| ID_REQUIREMENT | REQUIREMENT_DESCRIPTION |
-|----------------|-------------------------|
-| 8              |                         |
-| 9              |                         |
-| 10             |                         |
+| ID_REQUIREMENT | REQUIREMENT_DESCRIPTION                    |
+|----------------|--------------------------------------------|
+| 7              | Implementation of a complete rating system |
+| 8              |                                            |
