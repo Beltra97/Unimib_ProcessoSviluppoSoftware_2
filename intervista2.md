@@ -1,13 +1,29 @@
-Leyla Ors
-Ingegneria Aerospaziale
-Sì (ti devo specificare le altre materie?)
-Femmina
-Telefono smartphone/ipad/computer
-No fuori corso di un semestre
-Rifrequento un corso quindi per metà sarei tecnicamente frequentante
-Sì ho fornito ripetizioni occasionalmente
-Io dò ripetizioni occasionalmente quindi non ho orari/ giorni fissi
-Preferisco ripetizioni singole
-Target: studenti di elementari/medie/liceo, materia indifferente (ho fatto un po' di tutto, da matematica a storia) e anche il paese
-Lo studente ideale deve impegnarsi un minimo, non deve essere per forza una cima in intelligenza però se almeno si impegna mi fa piacere dargli una mano
-Di solito mi faccio pagare in contanti
+1) Silvia Traversa
+
+2) Informatica (magistrale)
+
+- Da quanto tempo eroghi ripetizioni? Da circa 4 anni (ma non regolarmente)
+
+3) PC e smartphone
+
+4) Poter avere un contatto diretto con l’insegnante, poter vedere subito i prezzi e la disponibilità
+
+5) Cosa ne pensi della possibilità di dare feedback sia agli studenti che agli insegnanti?
+
+6) Meglio una ricerca per materia, soprattutto dato che all’inizio uno non conosce i professori disponibili
+
+7) Prezzo, luogo, giorni/orari nei quali è disponibile
+
+8) Ordinato per feedback e prezzo
+
+9) Preferirei il log-in o con l’account dell’università (per comodità) oppure con Facebook, magari con la possibilità di poter scrivere all’insegnante via messenger 
+
+10) Vorrei poter avere subito a disposizione i professori che ho già contattato e il calendario con eventuali ripetizioni già programmate. Penso che anche una sezione in cui vengono visualizzati tutti i professori che insegnano delle materie presenti nei miei interessi sia utile, sempre ordinata per feedback e prezzo
+
+11) Sarebbe utile se comunque fosse presente sempre anche l’insegnante (che controlla il materiale) e non solo studenti
+
+12) Nella sezione profilo inserirei per gli studenti la facoltà che frequentano, i luoghi dove preferirebbero fare ripetizioni e i giorni/orari in cui è disponibile. Per gli insegnanti oltre a queste informazioni aggiungerei il feedback generale, le materie per cui offre ripetizioni e il prezzo. Secondo me una sezione bio non è utile.
+
+13) In entrambi i modi
+
+14) Poter contattare l’insegnante tramite messaggi sull’app
