@@ -99,7 +99,7 @@ Given this assuption, the chosen **Elicitation Strategy** for **UNIMIB Tutoring 
 1. **Background Study**: to gain knowledge about the software domain, mostly through the analysis of systems in the same domain (the domain of private lessons). The main objective of this activity is to discover some features that will render **UNIMIB Tutoring Assistant** unique in its domain, and produce _requirements_ starting from them.
 2. **Questionnaire for students from the University of Milano-Bicocca**: the questionnaire aims to collect as much data as possible from the final users: the students.  The data collected will be used to produce particular _requirements_ based on the final users needs. Furthermore, it will help with the writing of the _interviews_.
 3. **Interview with the Head of IT of the University of Milano-Bicocca**: the interview with the _Head of IT_ should be the first one to be executed as it is needed to find potential criticalities of legal values, economic values, etc. and it can give insight on how to treat them. The interview should be **Unstructured** and its output would be a set of _feasible_ and _necessary_ requirements for what is the University concern.
-4. **Interview with a sample of students who offer and receive private lessons (not necessarily from the University of Milano-Bicocca)**: this interview will heavily use the output from the _questionnaire_ in order to gain information from the students sample. For this interview, the students are considered **experts of domain** and not **final users**. The interview will be **Structured**, as a set of questions will be presented to the interviewee. The expected output of this activity is a set or _requirements_ focused on the private lessons domain.
+4. **Interview with a sample of students who offer and receive private lessons (not necessarily from the University of Milano-Bicocca)**: this interview will use the output from the _questionnaire_ in order to gain information from the students sample. For this interview, the students are considered **experts of domain** and not **final users**. The interview will be **Structured**, as a set of questions will be presented to the interviewee. The expected output of this activity is a set of _requirements_ focused on the private lessons domain.
 5. **Interview with an UX/UI Expert**: the interview with the _UX/UI Expert_ should be the last one to be executed. The expertise of the _UX/UI Expert_ should help produce _requirements_ to improve the UX/UI of the _Mobile Application_ (the UX/UI is needed to be as performant as possible, as stated in the Application Overview). Since the objective of this interview is to obtain as many informations as possible from the interviewee expertise, the interview should be **Unstructured**.
 
 Below, a visual representation of the **Elicitation Strategy**:
@@ -128,15 +128,16 @@ By comparison, **UNIMIB Tutoring Assistant** will consist of users within a stri
 
 By comparison, **UNIMIB Tutoring Assistant** will focus on offering a fluid and fast UX/UI, built with modern technologies and know-how.
 
-//TODO: gained requirements?
 
 #### DERIVED REQUIREMENTS
 
-| ID_REQUIREMENT | REQUIREMENT_DESCRIPTION |
-|----------------|-------------------------|
-|                |                         |
-|                |                         |
-|                |                         |
+The information gained through this analysis will influence the following steps of the elicitation strategy. Furthermore, with the considerations from the application overview and the data gained from this step, there is enough data to consider the following _requirements_ for the system TO-BE:
+
+| ID_REQUIREMENT | REQUIREMENT_DESCRIPTION                                         |
+|----------------|-----------------------------------------------------------------|
+| 1              | Implementation of a workflow for "User Profile" functionalities |
+| 2              | Implementation of a complex Search Functionality                |
+| 3              | Implementation of a built-in chat system                        |
 
 ## **PRESENTATION OF QUESTIONNAIRE**
 
@@ -523,30 +524,37 @@ Other useful data acquired with the help of this questionnaire regards:
 
 ### DERIVED REQUIREMENTS
 
-//TODO: calendar, real data, feedback, map integration, social?. feedback can go in background study since it is unique in this app
+With the knowledge gained through the analysis of the data obtained with the help of the questionnaire and considering the considerations from the previous steps, the following set of _requirements_ could be considered approved:
 
-| ID_REQUIREMENT | REQUIREMENT_DESCRIPTION |
-|----------------|-------------------------|
-|                |                         |
-|                |                         |
-|                |                         |
+| ID_REQUIREMENT | REQUIREMENT_DESCRIPTION                     |
+|----------------|---------------------------------------------|
+| 5              | Integration with a geolocalization provider |
+| 6              | Usage of real personal data                 |
+| 7              | Integration with OS Calendar                |
 
-## **PRESENTATION OF INTERVIEW**
+## **PRESENTATION OF INTERVIEW WITH A SAMPLE OF STUDENTS**
 
 //TODO
 //TODO: why do you prefer university but not Bicocca?!
 //TODO: what about social networks?
 
-## **RESULT OF THE INTERVIEW**
+The interview is a Stakeholder-Driven elicitation technique that will be used to gain data from the _Stakeholders_.
+with a sample of students who offer and receive private lessons (not necessarily from the University of Milano-Bicocca)
+As previously mentioned, this data will be used to generate _requirements_ based on the final users needs, other than helping with the writing of the _interviews_.
+
+this interview will use the output from the _questionnaire_ in order to gain information from the students sample.
+For this interview, the students are considered **experts of domain** and not **final users**.
+The interview will be **Structured**, as a set of questions will be presented to the interviewee.
+The expected output of this activity is a set of _requirements_ focused on the private lessons domain.
+
+## **RESULT OF THE INTERVIEW WITH A SAMPLE OF STUDENTS**
 
 //TODO
-
-//TODO: gained requirements?
 
 #### DERIVED REQUIREMENTS
 
 | ID_REQUIREMENT | REQUIREMENT_DESCRIPTION |
 |----------------|-------------------------|
-|                |                         |
-|                |                         |
-|                |                         |
+| 8              |                         |
+| 9              |                         |
+| 10             |                         |
