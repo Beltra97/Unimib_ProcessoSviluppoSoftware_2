@@ -338,7 +338,7 @@ This open answer question is useful in case some experienced users have addition
 
 ## **RESULT OF THE QUESTIONNAIRE**
 
-The above-presented questionnaire was filled by 41 students from the 2019/2020 Software Development Process course delivered at the University of Milano - Bicocca.
+The above-presented questionnaire was filled by 41 students from the 2019/2020 Software Development Process course delivered at the _University of Milano-Bicocca_.
 
 The raw data gained from the submission of the questionnaire will be presented below; shortly after, a brief analysis of the data will be presented. Lastly, there are two outputs from this activity:
 
@@ -640,11 +640,76 @@ The last question of an interview should always be the "other feedback" question
 
 ## **RESULT OF THE INTERVIEW WITH A SAMPLE OF STUDENTS**
 
-//TODO: with a sample of students who offer and receive private lessons (not necessarily from the University of Milano-Bicocca)
+The above-presented interview was submitted to 5 students; not every one of them was a student of the _University of Milano-Bicocca_ and there were three sessions: the first one grouped three of the selected students for a face-to-face interview, while the other two students were interviewed through Skype.
+
+The data gained from the interviews will be introduced below through a brief summary; shortly after, a set of requirements gained with this data will be presented.
+
+- [ ] QUESTION 1: **INTRODUCTION**
+
+> Would you like to introduce yourself? What is your field of interest? How long have you been private tutoring?
+
+The answers to this question will not be presented as the question was only meant to make the interviewees feel comfortable.
+
+- [ ] QUESTION 2: **REQUIRED FEATURES**
+
+> What do you think is **required** for a private lessoning _Mobile App_?
+
+Thanks to these interviews it can be reaffirmed that the most requested features seem to be the chat system, to allow the users to communicate and schedule a lesson, and instant notifications to remember the users about their upcoming lessons. Another suggestion was Social Network integration, with a clear explanation/request: integration should allow the users to be connected in order to expand connections within the _Mobile App_.
+
+- [ ] QUESTION 3: **FEEDBACK**
+
+> What is your opinion on giving feedback to users both as teachers and students?
+
+The answers to this question seem to confirm the appreciation for the feedback system, expecially because the teachers, since they are being rated, would be urged to perform in every private lesson.
+
+- [ ] QUESTION 4: **SEARCH METHOD**
+
+> Which are, in your opinion, the best search criteria for finding a teacher?
+
+The most appreciated filter seems to be the one regarding teacher's expertise. It should be noted, though, that every interviewee remarked the utility of searching a teacher directly by name.
+
+- [ ] QUESTION 5: **SORT METHOD**
+
+> Which are, in your opinion, the best sorting criteria for finding a teacher (for instance: price, distance, feedback, etc.)?
+
+Other than the already considered price sort, map sort and feedback sort, it has to be noted that a heavily requested filter/sort method is the one by a teacher's defined timetable. This functionality will produce a _requirement_, since it was always overlooked in the previous phases as it was thought that the chat system would nullify the need of a timetable.
+
+- [ ] QUESTION 6: **SOCIAL NETWORK INTEGRATION**
+
+> Which Social Network functionalities would you want to be integrated in the _Mobile App_?
+
+Other than Facebook, that is currently the most commonly used Social Network in Italy, it was suggested by the interviewees to consider an integration with [LinkedIn](https://it.linkedin.com/) in order to allow the students to confirm the teacher's expertise.
+
+- [ ] QUESTION 7: **PROFILE SECTION**
+
+> Which information would you want to see in the Profile Section?
+
+The answers to this question highlighted some features requested with conviction. For teachers: a timetable of private lessons, information about payment methods and, of course, informations about expertise and subject of the private lessons offered; for students, instead, the feedback section was the most requested.
+
+- [ ] QUESTION 8: **BIO**
+
+> What would you think of a "Bio" section, where a user can present themselves? What optional information would you want to know about other users?
+
+The Bio section was viewed, by most of the interviewed students, as a useful (sort of) cover letter in which the course of studies could be presented. A single interviewee, instead, affirmed that this section would not be much useful since it could present falsified data that the student could not uncover.
+
+- [ ] QUESTION 9: **CALENDAR METHOD**
+
+> When a private lesson is scheduled, would you want it to be synchronized with your OS Calendar or would you want to keep it within the _Mobile App_?
+
+//
+calendar os
+
+- [ ] QUESTION 10: **OTHER FEEDBACK**
+
+> Would you like to tell us something more other than what we already discussed?
+
+//TODO
 
 #### DERIVED REQUIREMENTS
 
-| ID_REQUIREMENT | REQUIREMENT_DESCRIPTION                    |
-|----------------|--------------------------------------------|
-| 7              | Implementation of a complete rating system |
-| 8              |                                            |
+| ID_REQUIREMENT | REQUIREMENT_DESCRIPTION                                                       |
+|----------------|-------------------------------------------------------------------------------|
+| 7              | Implementation of a complete rating system                                    |
+| 8              | Implementation of a workflow allowing to save "connections" with other people |
+| 9              | Implementation of the Search filter by teacher's name                         |
+| 10             | Implementation of a complex form to publish lessons timetable                 |
