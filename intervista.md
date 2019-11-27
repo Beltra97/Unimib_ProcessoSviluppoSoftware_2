@@ -4,7 +4,7 @@ Intervista 1
 2) Formazione e Gestione  delle risorse umane
 3) Da 4 anni 
 4) Telefono, PC fisso e PC portatile
-5) **Cosa pensi sia necessario in un app per le ripetizioni ? **Penso che la caratteristica necessaria per un'app di ripetizioni sia
+5) **Cosa pensi sia necessario in un app per le ripetizioni ? ** Penso che la caratteristica necessaria per un'app di ripetizioni sia
 avere la possibilità di distinguere le varie persone che si seguono con colori diversi e un avviso circa un'ora prima di iniziarle 
 6) **Cosa ne pensi della possibilità di dare feedback sia agli studenti che agli insegnanti ?** Mi sembra un'ottima idea
 7) ** La ricerca di una ripetizione deve avvenire per quale criterio ? Meglio una ricerca per professore o per materia ? **Penso che 
