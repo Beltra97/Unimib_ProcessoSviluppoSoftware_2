@@ -1,4 +1,4 @@
-*BIO*
+*BIO*  
 **Tuo cognome e nome ?**  
 Martina de Filippi  
 
@@ -11,14 +11,14 @@ Da 4 anni.
 **Quali dispositivi possiedi ?**  
 Telefono, PC fisso e PC portatile.
 
-**Cosa pensi sia necessario in un app per le ripetizioni ? **  
+**Cosa pensi sia necessario in un app per le ripetizioni ?**  
 Penso che la caratteristica necessaria per un'app di ripetizioni sia
 avere la possibilità di distinguere le varie persone che si seguono con colori diversi e un avviso circa un'ora prima di iniziarle.
 
 **Cosa ne pensi della possibilità di dare feedback sia agli studenti che agli insegnanti ?**  
 Mi sembra un'ottima idea.
 
-** La ricerca di una ripetizione deve avvenire per quale criterio ? Meglio una ricerca per professore o per materia ? **  
+**La ricerca di una ripetizione deve avvenire per quale criterio ? Meglio una ricerca per professore o per materia ? **  
 Penso che il criterio migliore sia che la ricerca avvenga filtrando per competenze del professore.
 
 **Quali filtri secondari per la ricerca sono fondamentali ?**  
