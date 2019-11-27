@@ -359,7 +359,7 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Female **[29.3%]**
 - Rather not specify **[0%]**
 
-![Section 1 - Question 1](questionnaire/answers/251119_2154/imgs_extracted/2-1.jpg)
+![Section 1 - Question 1](questionnaire/answers/251119_2154/imgs_extracted/1-1.jpg)
 
 - [ ] QUESTION 2: **NECESSITY OF SUPPORTING WEBAPP**
 
@@ -368,7 +368,7 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - A Mobile App is enough **[73.2%]**
 - A Website is fundamental **[26.8%]**
 
-![Section 1 - Question 2](questionnaire/answers/251119_2154/imgs_extracted/2-2.jpg)
+![Section 1 - Question 2](questionnaire/answers/251119_2154/imgs_extracted/1-2.jpg)
 
 - [ ] QUESTION 3: **INTERACTING WITH INDIVIDUALS OF DIFFERENT AGE**
 
@@ -379,7 +379,7 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - I would have problems interacting with both younger and older individuals **[2.4%]**
 - I would not have problems interacting with older/younger individuals **[0%]**
 
-![Section 1 - Question 3](questionnaire/answers/251119_2154/imgs_extracted/2-3.jpg)
+![Section 1 - Question 3](questionnaire/answers/251119_2154/imgs_extracted/1-3.jpg)
 
 - [ ] QUESTION 4: **ONLINE PAYMENT**
 
@@ -389,7 +389,7 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Offline payment **[31.7%]**
 - Indifferent **[41.5%]**
 
-![Section 1 - Question 4](questionnaire/answers/251119_2154/imgs_extracted/2-4.jpg)
+![Section 1 - Question 4](questionnaire/answers/251119_2154/imgs_extracted/1-4.jpg)
 
 - [ ] QUESTION 5: **PERSONAL DATA**
 
@@ -398,7 +398,7 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Yes **[95.1%]**
 - No **[4.9%]**
 
-![Section 1 - Question 5](questionnaire/answers/251119_2154/imgs_extracted/2-5.jpg)
+![Section 1 - Question 5](questionnaire/answers/251119_2154/imgs_extracted/1-5.jpg)
 
 - [ ] QUESTION 6: **LIKELINESS OF WORKING WITH AN OPPOSITE SEX INDIVIDUAL**
 
@@ -408,7 +408,7 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - I'd rather worth with same sex individuals **[2.4%]**
 - I would never have a private lesson with opposite sex individuals **[0%]**
 
-![Section 1 - Question 6](questionnaire/answers/251119_2154/imgs_extracted/2-6.jpg)
+![Section 1 - Question 6](questionnaire/answers/251119_2154/imgs_extracted/1-6.jpg)
 
 - [ ] QUESTION 7: **ADEQUATE AREAS FOR PRIVATE LESSONS**
 
@@ -420,7 +420,7 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Open space in the University **[1: _9_, 2: _10_, 3: _14_, 4: _5_, 5: _3_]**
 - Public place (for instance a bar, a library, etc.) **[1: _13_, 2: _14_, 3: _10_, 4: _4_, 5: _0_]**
 
-![Section 1 - Question 7](questionnaire/answers/251119_2154/imgs_extracted/2-7.jpg)
+![Section 1 - Question 7](questionnaire/answers/251119_2154/imgs_extracted/1-7.jpg)
 
 - [ ] QUESTION 8: **ONLINE PRIVATE LESSONS**
 
@@ -429,7 +429,7 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Yes **[41.5%]**
 - I prefer face-to-face lessons **[58.5%]**
 
-![Section 1 - Question 8](questionnaire/answers/251119_2154/imgs_extracted/2-8.jpg)
+![Section 1 - Question 8](questionnaire/answers/251119_2154/imgs_extracted/1-8.jpg)
 
 - [ ] QUESTION 9: **UNIMIB Infrastructures**
 
@@ -438,7 +438,7 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Yes **[58.5%]**
 - No **[41.5%]**
 
-![Section 1 - Question 9](questionnaire/answers/251119_2154/imgs_extracted/2-9.jpg)
+![Section 1 - Question 9](questionnaire/answers/251119_2154/imgs_extracted/1-9.jpg)
 
 - [ ] QUESTION 10: **CALENDAR NOTIFICATIONS**
 
@@ -447,7 +447,7 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Yes **[95.1%]**
 - No **[4.9%]**
 
-![Section 1 - Question 10](questionnaire/answers/251119_2154/imgs_extracted/2-10.jpg)
+![Section 1 - Question 10](questionnaire/answers/251119_2154/imgs_extracted/1-10.jpg)
 
 - [ ] QUESTION 11: **TEACHER OR STUDENT**
 
@@ -456,7 +456,7 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Yes **[75.6%]**
 - No **[24.4%]**
 
-![Section 1 - Question 11](questionnaire/answers/251119_2154/imgs_extracted/2-11.jpg)
+![Section 1 - Question 11](questionnaire/answers/251119_2154/imgs_extracted/1-11.jpg)
 
 #### **TEACHERS QUESTIONS SECTION**
 
@@ -567,10 +567,6 @@ With the knowledge gained through the analysis of the data obtained with the hel
 | 6              | Integration with OS Calendar                |
 
 ## **PRESENTATION OF INTERVIEW WITH A SAMPLE OF STUDENTS**
-
-//TODO
-//TODO: why do you prefer university but not Bicocca?!
-//TODO: what about social networks?
 
 The interview is a Stakeholder-Driven elicitation technique that will be used to gain data from the _Stakeholders_. It is fundamental to note that, for this interview, the students are considered **experts of domain** and not **final users**: the focus is acquiring knowledge about private lessoning in general and relate them with final users needs.
 
