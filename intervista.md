@@ -18,7 +18,7 @@ avere la possibilità di distinguere le varie persone che si seguono con colori 
 **Cosa ne pensi della possibilità di dare feedback sia agli studenti che agli insegnanti ?**  
 Mi sembra un'ottima idea.
 
-**La ricerca di una ripetizione deve avvenire per quale criterio ? Meglio una ricerca per professore o per materia ? **  
+**La ricerca di una ripetizione deve avvenire per quale criterio ? Meglio una ricerca per professore o per materia ?**  
 Penso che il criterio migliore sia che la ricerca avvenga filtrando per competenze del professore.
 
 **Quali filtri secondari per la ricerca sono fondamentali ?**  
