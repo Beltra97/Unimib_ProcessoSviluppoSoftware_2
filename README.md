@@ -359,12 +359,16 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Female **[29.3%]**
 - Rather not specify **[0%]**
 
+![Section 1 - Question 1](questionnaire/answers/251119_2154/imgs_extracted/2-1.jpg)
+
 - [ ] QUESTION 2: **NECESSITY OF SUPPORTING WEBAPP**
 
 > Would you prefer using a Website in order to publish/search for private lessons offers or you feel comfortable enough with using a Mobile App?
 
 - A Mobile App is enough **[73.2%]**
 - A Website is fundamental **[26.8%]**
+
+![Section 1 - Question 2](questionnaire/answers/251119_2154/imgs_extracted/2-2.jpg)
 
 - [ ] QUESTION 3: **INTERACTING WITH INDIVIDUALS OF DIFFERENT AGE**
 
@@ -375,6 +379,8 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - I would have problems interacting with both younger and older individuals **[2.4%]**
 - I would not have problems interacting with older/younger individuals **[0%]**
 
+![Section 1 - Question 3](questionnaire/answers/251119_2154/imgs_extracted/2-3.jpg)
+
 - [ ] QUESTION 4: **ONLINE PAYMENT**
 
 > Would you prefer an online payment system (using the most famous online payment providers, such as PayPal) or a offline payment?
@@ -383,12 +389,16 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Offline payment **[31.7%]**
 - Indifferent **[41.5%]**
 
+![Section 1 - Question 4](questionnaire/answers/251119_2154/imgs_extracted/2-4.jpg)
+
 - [ ] QUESTION 5: **PERSONAL DATA**
 
 > Would you feel safer if the users would be required to use their personal data?
 
 - Yes **[95.1%]**
 - No **[4.9%]**
+
+![Section 1 - Question 5](questionnaire/answers/251119_2154/imgs_extracted/2-5.jpg)
 
 - [ ] QUESTION 6: **LIKELINESS OF WORKING WITH AN OPPOSITE SEX INDIVIDUAL**
 
@@ -397,6 +407,8 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - I am very comfortable with working with opposite sex individuals **[97.6%]**
 - I'd rather worth with same sex individuals **[2.4%]**
 - I would never have a private lesson with opposite sex individuals **[0%]**
+
+![Section 1 - Question 6](questionnaire/answers/251119_2154/imgs_extracted/2-6.jpg)
 
 - [ ] QUESTION 7: **ADEQUATE AREAS FOR PRIVATE LESSONS**
 
@@ -408,12 +420,16 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Open space in the University **[1: _9_, 2: _10_, 3: _14_, 4: _5_, 5: _3_]**
 - Public place (for instance a bar, a library, etc.) **[1: _13_, 2: _14_, 3: _10_, 4: _4_, 5: _0_]**
 
+![Section 1 - Question 7](questionnaire/answers/251119_2154/imgs_extracted/2-7.jpg)
+
 - [ ] QUESTION 8: **ONLINE PRIVATE LESSONS**
 
 > Would you have sessions of private lessons online?
 
 - Yes **[41.5%]**
 - I prefer face-to-face lessons **[58.5%]**
+
+![Section 1 - Question 8](questionnaire/answers/251119_2154/imgs_extracted/2-8.jpg)
 
 - [ ] QUESTION 9: **UNIMIB Infrastructures**
 
@@ -422,6 +438,8 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Yes **[58.5%]**
 - No **[41.5%]**
 
+![Section 1 - Question 9](questionnaire/answers/251119_2154/imgs_extracted/2-9.jpg)
+
 - [ ] QUESTION 10: **CALENDAR NOTIFICATIONS**
 
 > Would you like the possibility to create a calendar event in order to get a notification prior to a scheduled private lesson?
@@ -429,12 +447,16 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Yes **[95.1%]**
 - No **[4.9%]**
 
+![Section 1 - Question 10](questionnaire/answers/251119_2154/imgs_extracted/2-10.jpg)
+
 - [ ] QUESTION 11: **TEACHER OR STUDENT**
 
 > Have you ever given private lessons to some student in need?
 
 - Yes **[75.6%]**
 - No **[24.4%]**
+
+![Section 1 - Question 11](questionnaire/answers/251119_2154/imgs_extracted/2-11.jpg)
 
 #### **TEACHERS QUESTIONS SECTION**
 
@@ -446,6 +468,8 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - I prefer individual lessons **[58.1%]**
 - I do not have a preference **[35.5%]**
 
+![Section 2 - Question 1](questionnaire/answers/251119_2154/imgs_extracted/2-1.jpg)
+
 - [ ] QUESTION 2: **PAYMENT TIMING**
 
 > Would you prefer being paid before or during the meeting?
@@ -454,6 +478,8 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - During the meeting **[32.3%]**
 - Indifferent **[54.8%]**
 
+![Section 2 - Question 2](questionnaire/answers/251119_2154/imgs_extracted/2-2.jpg)
+
 - [ ] QUESTION 3: **SOCIAL NETWORKS**
 
 > Would you appreciate the possibility to share your private lessons offers via Social Networks?
@@ -461,6 +487,8 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Yes **[48.4%]**
 - No **[16.1%]**
 - Indifferent **[35.5%]**
+
+![Section 2 - Question 3](questionnaire/answers/251119_2154/imgs_extracted/2-3.jpg)
 
 #### **STUDENTS QUESTIONS SECTION**
 
@@ -471,6 +499,8 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Need **[80%]**
 - Recreation **[20%]**
 
+![Section 3 - Question 1](questionnaire/answers/251119_2154/imgs_extracted/3-1.jpg)
+
 - [ ] QUESTION 2: **GROUP LESSONS**
 
 > What do you think about group lessons?
@@ -478,6 +508,8 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - i prefer group lessons over individual lessons **[0%]**
 - I prefer individual lessons **[90%]**
 - I do not have a preference **[10%]**
+
+![Section 3 - Question 2](questionnaire/answers/251119_2154/imgs_extracted/3-2.jpg)
 
 - [ ] QUESTION 3: **PARAMETERS FOR SEARCHING A TEACHER**
 
@@ -488,6 +520,8 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 - Distance to meeting place **[1: _0_, 2: _3_, 3: _2_, 4: _2_, 5: _3_]**
 - Feedback of other users **[1: _0_, 2: _3_, 3: _2_, 4: _2_, 5: _3_]**
 - Other social parameters (such as age, sex, etc.) **[1: _4_, 2: _1_, 3: _4_, 4: _0_, 5: _1_]**
+
+![Section 3 - Question 3](questionnaire/answers/251119_2154/imgs_extracted/3-3.jpg)
 
 #### **FEEDBACK SECTION**
 
@@ -558,7 +592,7 @@ This question, as anticipated, is useful to lightheartedly get to know the inter
 
 > What do you think is **required** for a private lessoning _Mobile App_?
 
-The first real question is a direct question towards the core of the discussion: what, in your opinion, is **required** (emphasis on _required_) for a _Mobile App_ in this domain? The objective is to let the interviewee brainstorm as much as possible with fresh mind, in order to let all of their ideas come out.
+The first real question is a direct question towards the core of the discussion. It is asked what is **required** (emphasis on _required_) for a _Mobile App_ in this domain. The objective is to let the interviewee brainstorm as much as possible with fresh mind, in order to let all of their ideas come out.
 
 - [ ] QUESTION 3: **FEEDBACK**
 
