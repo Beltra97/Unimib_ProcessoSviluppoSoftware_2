@@ -102,7 +102,7 @@ Given this assumption, the chosen **Elicitation Strategy** for **UNIMIB Tutoring
 4. **Interview with a sample of students who offer and receive private lessons (not necessarily from the University of Milano-Bicocca)**: this interview will use the output from the _questionnaire_ in order to gain information from the students' sample. For this interview, the students are considered **experts of domain** and not **final users**. The interview will be **Structured**, as a set of questions will be presented to the interviewee. The expected output of this activity is a set of _requirements_ focused on the private lessons domain.
 5. **Interview with an UX/UI Expert**: the interview with the _UX/UI Expert_ should be the last one to be executed. The expertise of the _UX/UI Expert_ should help produce _requirements_ to improve the UX/UI of the _Mobile Application_ (the UX/UI is needed to be as performant as possible, as stated in the Application Overview). Since the objective of this interview is to obtain as many information as possible from the interviewee expertise, the interview should be **Unstructured**.
 
-Below, a visual representation of the **Elicitation Strategy**:
+Below, a visual representation (through Flowchart) of the **Elicitation Strategy**:
 
 ![](assets/ES.png)
 
