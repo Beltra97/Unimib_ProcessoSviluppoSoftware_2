@@ -20,7 +20,7 @@ The core concept behind this application is to allow students to offer and to se
 
 Group 25 was formed by three students of the _University of Milano-Bicocca_ that won a scholarship for an internship dedicated to the development of the mobile application.
 
-The _public competition_ did not come with an in-depth list of requirements for the software to be met; instead, it described the application at high-level by providing a ideal workflow that will be presented in this overview.
+The _public competition_ did not come with an in-depth list of requirements for the software to be met; instead, it described the application at high-level by providing an ideal workflow that will be presented in this overview.
 
 Before presenting the overview, though, it is fundamental to introduce the different types of user that will be interacting with the system.
 **UNIMIB Tutoring Assistant** will be an application for handling private tutoring, so two key types of user need to be defined:
@@ -35,7 +35,7 @@ Regarding the two key users for the Mobile Application, it will be required for 
 
 After **logging in**, they can choose to _Search for Private Lessons_ (filtered, at least initially, by chosen _field of study/interest_) or to _Offer Private Lessons_ by compiling a form with some mandatory and optional information.
 
-An user in need of a private lesson can start to schedule a meeting with an offerer. During the scheduling the application will allow the users to send _instant messages_ to communicate and to _check reviews_ about the other user, other than, of course, negotiate the _date of meeting_ and other _meeting details_.
+An user in need of a private lesson can start to schedule a meeting with an offeror. During the scheduling the application will allow the users to send _instant messages_ to communicate and to _check reviews_ about the other user, other than, of course, negotiate the _date of meeting_ and other _meeting details_.
 
 After a certain time after a scheduled meeting, both actors will be able to send a review about the meeting in order to give future users a better way to find an appropriate match for their needs.
 
@@ -95,11 +95,11 @@ As previously mentioned, **Requirements Elicitation** is the second step of **Re
 
 A standard **Elicitation Strategy** usually starts with a complete analysis of the _Software AS-IS_, in order to find a set of weaknesses that need to be addressed by the software solution that is going to be developed; in this case, though, since **UNIMIB Tutoring Assistant** is a __to-be-developed__ _Mobile Application_, a good approach to start with **Requirements Elicitation** is to gain knowledge about the software domain through a **Background Study**.
 
-Given this assuption, the chosen **Elicitation Strategy** for **UNIMIB Tutoring Assistant** is structured as it follows:
+Given this assumption, the chosen **Elicitation Strategy** for **UNIMIB Tutoring Assistant** is structured as it follows:
 1. **Background Study**: to gain knowledge about the software domain, mostly through the analysis of systems in the same domain (the domain of private lessons). The main objective of this activity is to discover some features that will render **UNIMIB Tutoring Assistant** unique in its domain, and produce _requirements_ starting from them.
-2. **Questionnaire for students from the University of Milano-Bicocca**: the questionnaire aims to collect as much data as possible from the final users: the students.  The data collected will be used to produce particular _requirements_ based on the final users needs. Furthermore, it will help with the writing of the _interviews_.
+2. **Questionnaire for students from the University of Milano-Bicocca**: the questionnaire aims to collect as much data as possible from the final users: the students.  The data collected will be used to produce particular _requirements_ based on the final users' needs. Furthermore, it will help with the writing of the _interviews_.
 3. **Interview with the Head of IT of the University of Milano-Bicocca**: the interview with the _Head of IT_ should be the first one to be executed as it is needed to find potential criticalities of legal values, economic values, etc. and it can give insight on how to treat them. The interview should be **Unstructured** and its output would be a set of _feasible_ and _necessary_ requirements for what is the University concern.
-4. **Interview with a sample of students who offer and receive private lessons (not necessarily from the University of Milano-Bicocca)**: this interview will use the output from the _questionnaire_ in order to gain information from the students sample. For this interview, the students are considered **experts of domain** and not **final users**. The interview will be **Structured**, as a set of questions will be presented to the interviewee. The expected output of this activity is a set of _requirements_ focused on the private lessons domain.
+4. **Interview with a sample of students who offer and receive private lessons (not necessarily from the University of Milano-Bicocca)**: this interview will use the output from the _questionnaire_ in order to gain information from the students' sample. For this interview, the students are considered **experts of domain** and not **final users**. The interview will be **Structured**, as a set of questions will be presented to the interviewee. The expected output of this activity is a set of _requirements_ focused on the private lessons domain.
 5. **Interview with an UX/UI Expert**: the interview with the _UX/UI Expert_ should be the last one to be executed. The expertise of the _UX/UI Expert_ should help produce _requirements_ to improve the UX/UI of the _Mobile Application_ (the UX/UI is needed to be as performant as possible, as stated in the Application Overview). Since the objective of this interview is to obtain as many information as possible from the interviewee expertise, the interview should be **Unstructured**.
 
 Below, a visual representation of the **Elicitation Strategy**:
@@ -114,15 +114,15 @@ Since **UNIMIB Tutoring Assistant** is a _to-be-developed_ Mobile Application, i
 
 **Private lessoning** is a vast market, its customers fill up academic bullet boards and web systems alike. In such a competitive field, offering unique and user-friendly features is key to beat the competition. The main reason to analyze the competition is identifying strong and weak points of the software solutions for the target domain: these points should give insight on which _requirements_ could be considered suitable and which ones should be discarded.
 
-This sections presents three software services dedicated to searching/offering private lessons.
+This section presents three software services dedicated to searching/offering private lessons.
 
 1. [TrovaRipetizoni](https://trovaripetizioni.it/): it is platform created by students and for students. The analysis of its workflow hints that its concept is creating an ample network spanning the whole Italy, offering solutions for every kind of student, even those with learning disabilities. Its Search functionality allows the user to filter private lessons offers by name, subject of study and geographical area, but not for teacher name: this limitation could result bothersome in case a user would like to search for a specific teacher advised by a friend. In addition, the system does not allow the user to contact the teacher directly: it simply shows the searcher its email.
 
-By comparison, **UNIMIB Tutoring Assistant** will focus on offering an experience with enhanced social functionalities, like a chat between the searcher/offerer and the possibility to filter private lessons by teacher name.
+By comparison, **UNIMIB Tutoring Assistant** will focus on offering an experience with enhanced social functionalities, like a chat between the searcher/offeror and the possibility to filter private lessons by teacher name.
 
 2. [SuperProf](https://www.superprof.it/): this platform has a visibly larger network of user, with almost seven million users worldwide. Its UX is intuitive and fast, making it very pleasing for the final user. The core feature is, certainly, the openness of the application towards remote lessons by allowing teachers to offer their private lessons via [Skype](https://www.skype.com/), [Hangouts](https://hangouts.google.com/) and other VoIP software. With its Search functionality it is possible to filter lessons by many parameters, including geographical area, but overall the search feature does work as intended for several reasons: to list the most important, the private lessons are not limited in particular fields: while this offers more content to the platform, its huge amount of data renders searching particularly inefficient (Editor's note: trying to search for Computer Science private lessons shows between the first visible results lessons offered by, for example, Medical Science students). Another weak point of the system could be its required subscription for lessons searchers who are required to pay monthly to use its functionalities.
 
-By comparison, **UNIMIB Tutoring Assistant** will consist of users within a stricter geographical area in order to offer a higher quality experience in terms of matches for searchers/offerers. Additionally, it will offer a free-of-charge experience in order not to discourage potential users with recurring payments.
+By comparison, **UNIMIB Tutoring Assistant** will consist of users within a stricter geographical area in order to offer a higher quality experience in terms of matches for searchers/offerors. Additionally, it will offer a free-of-charge experience in order not to discourage potential users with recurring payments.
 
 3. [BravoApp](http://www.bravoapp.it/): it is a _Mobile App_ for Android and iOS. The core features of this system are the built-in chat system and calendar, but apart from these, the UX/UI is not very refined. Its most critical point is certainly the monthly subscription required for teachers: it is undoubted that the limited number of private lessons offers derive from this point, since these users expect to gain from this service, not the opposite. One last fault of this system, unjustifiable for a contemporary Software Engineer (and for most scary users), is the fact that its website is exposed in **HTTP protocol**!
 
@@ -141,11 +141,11 @@ The information gained through this analysis will influence the following steps 
 
 ## **PRESENTATION OF QUESTIONNAIRE**
 
-The questionnaire is the first elicitation technique that will be used to gain data from the _Stakeholders_. As previously mentioned, this data will be used to generate _requirements_ based on the final users needs, other than helping with the writing of the _interviews_.
+The questionnaire is the first elicitation technique that will be used to gain data from the _Stakeholders_. As previously mentioned, this data will be used to generate _requirements_ based on the final users' needs, other than helping with the writing of the _interviews_.
 
-In the writing of this questionnaire, some best-practices from literature were taken in consideration. For instance, in order to make the questionnaire effective, the questions will be short, weighting and mostly closed-ended to avoid that their compiling proves laborious; at the same time, possible answers will be highly discoupled, since giving the user similiar possible answers (for instance, 6 and 7 in a scale from 1 to 10) will produce unreliable data. Moreover, some initially considered profiling questions were excluded due to two main reasons: some of them were not significant enough (for instance, knowing the age of our users is borderline irrelevant, since it is highly likely they are between 20 and 30) and some of them could cause privacy issues. Lastly, since communication is key in dealing with the _Stakeholders_, the questionnaire will be written in Italian (and with an appropriate register) as the final users will be mostly italian (although it will be presented in English in this section).
+In the writing of this questionnaire, some best-practices from literature were taken in consideration. For instance, in order to make the questionnaire effective, the questions will be short, weighting and mostly closed-ended to avoid that their compiling proves laborious; at the same time, possible answers will be highly decoupled, since giving the user similar possible answers (for instance, 6 and 7 in a scale from 1 to 10) will produce unreliable data. Moreover, some initially considered profiling questions were excluded due to two main reasons: some of them were not significant enough (for instance, knowing the age of our users is borderline irrelevant, since it is highly likely they are between 20 and 30) and some of them could cause privacy issues. Lastly, since communication is key in dealing with the _Stakeholders_, the questionnaire will be written in Italian (and with an appropriate register) as the final users will be mostly italian (although it will be presented in English in this section).
 
-The questionnaire will be composed by four sections: the first section presents some general questions; the second and third sections will present questions for students offering private lessons and for students who are in need of private lessons respectively (there will be a question deciding the compiling workflow); the fourth section presents an open _Feedback_ question. Some of the questions will not be presented in the general section but it will be presented in both the teachers and students section because, since their motivations to answer are driven by different causes, in the future these question could be made open to allow further justification to the answer.
+The questionnaire will be composed by four sections: the first section presents some general questions; the second and third sections will present questions for students offering private lessons and for students who are in need of private lessons respectively (there will be a question deciding the compiling workflow); the fourth section presents an open _Feedback_ question. Some of the questions will not be presented in the general section but it will be presented in both the teachers and students section because, since their motivations to answer are driven by different causes, in the future these questions could be made open to allow further justification to the answer.
 
 The questionnaire will be created through [Google Forms](https://docs.google.com/forms) and submitted to students with the help of **the professor in charge of the project**.
 
@@ -185,7 +185,7 @@ This question is useful to understand if a Search Functionality filter by _Age_ 
 
 - [ ] QUESTION 4: **ONLINE PAYMENT**
 
-> Would you prefer an online payment system (using the most famous online payment providers, such as PayPal) or a offline payment?
+> Would you prefer an online payment system (using the most famous online payment providers, such as PayPal) or an offline payment?
 
 - Online payment
 - Offline payment
@@ -210,7 +210,7 @@ This question is useful to understand how the final users of **UNIMIB Tutoring A
 - I'd rather worth with same sex individuals
 - I would never have a private lesson with opposite sex individuals
 
-As previously mentioned, this question comes from a conjecture: _are female students less likely to work with male students?_ It is important to know because, in affermative case, it could be useful to lead this piece of information in the **Interview with the Head of IT of the University of Milano-Bicocca**, as he could arrange with the **Project Owner** a meeting with University representative in order to officially ask the University to provide open spaces for private lessons.
+As previously mentioned, this question comes from a conjecture: _are female students less likely to work with male students?_ It is important to know because, in affirmative case, it could be useful to lead this piece of information in the **Interview with the Head of IT of the University of Milano-Bicocca**, as he could arrange with the **Project Owner** a meeting with University representative in order to officially ask the University to provide open spaces for private lessons.
 
 - [ ] QUESTION 7: **ADEQUATE AREAS FOR PRIVATE LESSONS**
 
@@ -266,7 +266,7 @@ Responding _Yes_ to this question will bring the user to the **Teachers Question
 
 > What do you think about group lessons?
 
-- i prefer group lessons over individual lessons
+- I prefer group lessons over individual lessons
 - I prefer individual lessons
 - I do not have a preference
 
@@ -307,7 +307,7 @@ This question is required to understand the average expertise level the student 
 
 > What do you think about group lessons?
 
-- i prefer group lessons over individual lessons
+- I prefer group lessons over individual lessons
 - I prefer individual lessons
 - I do not have a preference
 
@@ -383,7 +383,7 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 
 - [ ] QUESTION 4: **ONLINE PAYMENT**
 
-> Would you prefer an online payment system (using the most famous online payment providers, such as PayPal) or a offline payment?
+> Would you prefer an online payment system (using the most famous online payment providers, such as PayPal) or an offline payment?
 
 - Online payment **[26.8%]**
 - Offline payment **[31.7%]**
@@ -464,7 +464,7 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 
 > What do you think about group lessons?
 
-- i prefer group lessons over individual lessons **[6.5%]**
+- I prefer group lessons over individual lessons **[6.5%]**
 - I prefer individual lessons **[58.1%]**
 - I do not have a preference **[35.5%]**
 
@@ -505,7 +505,7 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 
 > What do you think about group lessons?
 
-- i prefer group lessons over individual lessons **[0%]**
+- I prefer group lessons over individual lessons **[0%]**
 - I prefer individual lessons **[90%]**
 - I do not have a preference **[10%]**
 
@@ -531,9 +531,9 @@ The exported .csv from Google Forms can be found at `questionnaire/answers/25111
 
 ### DATA ANALYSIS
 
-Following, a brief analysis of the data aquired. The purpose of this analysis is merely to identify functionalities that could be formalized into _requirements_ and functionalities that could be postponed or discarded.
+Following, a brief analysis of the data acquired. The purpose of this analysis is merely to identify functionalities that could be formalized into _requirements_ and functionalities that could be postponed or discarded.
 
-First of all, the data aquired regarding personal information about users showed pretty clear results. In particular:
+First of all, the data acquired regarding personal information about users showed pretty clear results. In particular:
 
 1. **95.1%** of interviewees do not have problems interacting with older/younger individuals.
 2. **97.6%** of interviewees do not have problems interacting with individuals of the opposite sex.
@@ -564,13 +564,13 @@ With the knowledge gained through the analysis of the data obtained with the hel
 |----------------|---------------------------------------------|
 | 4              | Integration with a geolocalization provider |
 | 5              | Usage of real personal data                 |
-| 6              | Integration with OS Calendar                |
+| 6              | Integration with System Calendar            |
 
 ## **PRESENTATION OF INTERVIEW WITH A SAMPLE OF STUDENTS**
 
-The interview is a Stakeholder-Driven elicitation technique that will be used to gain data from the _Stakeholders_. It is fundamental to note that, for this interview, the students are considered **experts of domain** and not **final users**: the focus is acquiring knowledge about private lessoning in general and relate them with final users needs.
+The interview is a Stakeholder-Driven elicitation technique that will be used to gain data from the _Stakeholders_. It is fundamental to note that, for this interview, the students are considered **experts of domain** and not **final users**: the focus is acquiring knowledge about private lessoning in general and relate them with final users' needs.
 
-Since producing, organizing and executing an interview is rather time consuming and expensive, it is important to plan it efficiently and according to the guidelines offered in literature. The interview will be **Structured**: the interviewee will be asked a set of questions prepared with meticulous attention to the data gained through the previous steps (and, in particular, through the questionnaire). As for the questionnaire, and even more so, it is fundamental to make the interviewee feel comfortable: for instance, using an appreciate linguistic register can drastically improve the the success of the interview (for this reason, even though it will be presented in English in this section, the interview will be carried out in Italian and according to the interviewee level of speech). Regarding the number of questions, it is adjusted so that the interviewee does not lose focus due to tiredness. This interview is considered to be possible to be carried out online other than face-to-face.
+Since producing, organizing and executing an interview is rather time consuming and expensive, it is important to plan it efficiently and according to the guidelines offered in literature. The interview will be **Structured**: the interviewee will be asked a set of questions prepared with meticulous attention to the data gained through the previous steps (and, in particular, through the questionnaire). As for the questionnaire, and even more so, it is fundamental to make the interviewee feel comfortable: for instance, using an appreciate linguistic register can drastically improve the success of the interview (for this reason, even though it will be presented in English in this section, the interview will be carried out in Italian and according to the interviewee level of speech). Regarding the number of questions, it is adjusted so that the interviewee does not lose focus due to tiredness. This interview is considered to be possible to be carried out online other than face-to-face.
 
 Before the interview start, a quick Application Overview should be presented. Therefore, the interview would start with a simple (group of) question set up only to make the interviewee comfortable and to put them in a friendly context; after this phase, the real questions could be finally asked.
 
@@ -628,7 +628,7 @@ This question was chosen because of the high value given by the questionnaire in
 
 - [ ] QUESTION 9: **CALENDAR METHOD**
 
-> When a private lesson is scheduled, would you want it to be synchronized with your OS Calendar or would you want to keep it within the _Mobile App_?
+> When a private lesson is scheduled, would you want it to be synchronized with your System Calendar or would you want to keep it within the _Mobile App_?
 
 This question has the objective to understand whether the user would prefer the _Mobile App_ to interact with the OS or whether they would prefer to keep notifications inside the app.
 
@@ -660,7 +660,7 @@ Thanks to these interviews it can be reaffirmed that the most requested features
 
 > What is your opinion on giving feedback to users both as teachers and students?
 
-The answers to this question seem to confirm the appreciation for the feedback system, expecially because the teachers, since they are being rated, would be urged to perform in every private lesson.
+The answers to this question seem to confirm the appreciation for the feedback system, especially because the teachers, since they are being rated, would be urged to perform in every private lesson.
 
 - [ ] QUESTION 4: **SEARCH METHOD**
 
@@ -684,7 +684,7 @@ Other than Facebook, that is currently the most commonly used Social Network in 
 
 > Which information would you want to see in the Profile Section?
 
-The answers to this question highlighted some features requested with conviction. For teachers: a timetable of private lessons, information about payment methods and, of course, informations about expertise and subject of the private lessons offered; for students, instead, the feedback section was the most requested.
+The answers to this question highlighted some features requested with conviction. For teachers: a timetable of private lessons, information about payment methods and, of course, information about expertise and subject of the private lessons offered; for students, instead, the feedback section was the most requested.
 
 - [ ] QUESTION 8: **BIO**
 
@@ -694,10 +694,9 @@ The Bio section was viewed, by most of the interviewed students, as a useful (so
 
 - [ ] QUESTION 9: **CALENDAR METHOD**
 
-> When a private lesson is scheduled, would you want it to be synchronized with your OS Calendar or would you want to keep it within the _Mobile App_?
+> When a private lesson is scheduled, would you want it to be synchronized with your System Calendar or would you want to keep it within the _Mobile App_?
 
-//
-calendar os
+Every interviewee showed high appreciation about the integration with the System Calendar. Some of them suggested to send both a App Notification and a Calendar Event, but this approach will probably be discarded as it is not a common procedure for _Mobile Apps_.
 
 - [ ] QUESTION 10: **OTHER FEEDBACK**
 
