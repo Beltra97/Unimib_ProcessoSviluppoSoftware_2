@@ -135,9 +135,9 @@ The information gained through this analysis will influence the following steps 
 
 | ID_REQUIREMENT | REQUIREMENT_DESCRIPTION                                         |
 |----------------|-----------------------------------------------------------------|
-| 1              | Implementation of a workflow for "User Profile" functionalities |
-| 2              | Implementation of a complex Search Functionality                |
-| 3              | Implementation of a built-in chat system                        |
+| 001            | Implementation of a workflow for "User Profile" functionalities |
+| 002            | Implementation of a complex Search Functionality                |
+| 003            | Implementation of a built-in chat system                        |
 
 ## **PRESENTATION OF QUESTIONNAIRE**
 
@@ -562,9 +562,9 @@ With the knowledge gained through the analysis of the data obtained with the hel
 
 | ID_REQUIREMENT | REQUIREMENT_DESCRIPTION                     |
 |----------------|---------------------------------------------|
-| 4              | Integration with a geolocalization provider |
-| 5              | Usage of real personal data                 |
-| 6              | Integration with System Calendar            |
+| 004            | Integration with a geolocalization provider |
+| 005            | Usage of real personal data                 |
+| 006            | Integration with System Calendar            |
 
 ## **PRESENTATION OF INTERVIEW WITH A SAMPLE OF STUDENTS**
 
@@ -708,7 +708,7 @@ Every interviewee showed high appreciation about the integration with the System
 
 | ID_REQUIREMENT | REQUIREMENT_DESCRIPTION                                                       |
 |----------------|-------------------------------------------------------------------------------|
-| 7              | Implementation of a complete rating system                                    |
-| 8              | Implementation of a workflow allowing to save "connections" with other people |
-| 9              | Implementation of the Search filter by teacher's name                         |
-| 10             | Implementation of a complex form to publish lessons timetable                 |
+| 007            | Implementation of a complete rating system                                    |
+| 008            | Implementation of a workflow allowing to save "connections" with other people |
+| 009            | Implementation of the Search filter by teacher's name                         |
+| 010            | Implementation of a complex form to publish lessons timetable                 |
