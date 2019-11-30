@@ -702,7 +702,9 @@ Every interviewee showed high appreciation about the integration with the System
 
 > Would you like to tell us something more other than what we already discussed?
 
-//TODO:
+Some interviewee restated once again the relevance of the chat system: it should be easy to access and to use. To accomplish this, it could be useful to structure the layout of the _Mobile App_ around a fixed footer that could display the main sections, such as Chat, Profile, Home. The Chat icon could display a notification badge, to keep the user updated with their conversations.
+
+Another key point highlighted by some interviewee was the importance of the user base: to keep it alive, the _Mobile App_ should not bother the users with intrusive ADs nor should withhold fees. Furthermore, it could be considered to implement a "reward system" using _gamification_: the user could receive visual badges to show the other users after completing achievements from a predefined set.
 
 #### DERIVED REQUIREMENTS
 
