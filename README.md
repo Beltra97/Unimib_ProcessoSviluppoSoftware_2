@@ -133,11 +133,12 @@ By comparison, **UNIMIB Tutoring Assistant** will focus on offering a fluid and 
 
 The information gained through this analysis will influence the following steps of the elicitation strategy. Furthermore, with the considerations from the application overview and the data gained from this step, there is enough data to consider the following _requirements_ for the system TO-BE:
 
-| ID_REQUIREMENT | REQUIREMENT_DESCRIPTION                                         |
+| ID_REQUIREMENT | REQUIREMENT_NAME                                                |
 |----------------|-----------------------------------------------------------------|
 | 001            | Implementation of a workflow for "User Profile" functionalities |
-| 002            | Implementation of a complex Search Functionality                |
-| 003            | Implementation of a built-in chat system                        |
+| 002            | Implementation of a built-in chat system                        |
+
+Requirements descriptions can be found at `requirements/REQUIREMENTS_241119.xlsx`.
 
 ## **PRESENTATION OF QUESTIONNAIRE**
 
@@ -560,11 +561,13 @@ Other useful data acquired with the help of this questionnaire regards:
 
 With the knowledge gained through the analysis of the data obtained with the help of the questionnaire and considering the considerations from the previous steps, the following set of _requirements_ could be considered approved:
 
-| ID_REQUIREMENT | REQUIREMENT_DESCRIPTION                     |
+| ID_REQUIREMENT | REQUIREMENT_NAME                            |
 |----------------|---------------------------------------------|
-| 004            | Integration with a geolocalization provider |
-| 005            | Usage of real personal data                 |
-| 006            | Integration with System Calendar            |
+| 003            | Integration with a geolocalization provider |
+| 004            | Usage of real personal data                 |
+| 005            | Integration with System Calendar            |
+
+Requirements descriptions can be found at `requirements/REQUIREMENTS_241119.xlsx`.
 
 ## **PRESENTATION OF INTERVIEW WITH A SAMPLE OF STUDENTS**
 
@@ -708,9 +711,11 @@ Another key point highlighted by some interviewee was the importance of the user
 
 #### DERIVED REQUIREMENTS
 
-| ID_REQUIREMENT | REQUIREMENT_DESCRIPTION                                                       |
+| ID_REQUIREMENT | REQUIREMENT_NAME                                                              |
 |----------------|-------------------------------------------------------------------------------|
-| 007            | Implementation of a complete rating system                                    |
-| 008            | Implementation of a workflow allowing to save "connections" with other people |
-| 009            | Implementation of the Search filter by teacher's name                         |
-| 010            | Implementation of a complex form to publish lessons timetable                 |
+| 006            | Implementation of a complete rating system                                    |
+| 007            | Implementation of a workflow allowing to save "connections" with other people |
+| 008            | Implementation of a complex Search Functionality                              |
+| 009            | Implementation of a complex form to publish lessons timetable                 |
+
+Requirements descriptions can be found at `requirements/REQUIREMENTS_241119.xlsx`.
